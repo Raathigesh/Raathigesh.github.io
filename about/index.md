@@ -8,4 +8,4 @@ image:
   feature: Bio.png
 ---
 
-Just another software engineer (Not Really!) trying to do cool stuff with my super power, ability create bring insane ideas to life overnight. Nothing much to say now. But Soon...
+Just another software engineer (Not Really!) trying to do cool stuff with my super power, ability  bring insane ideas to life overnight.
