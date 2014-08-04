@@ -1,1 +1,2 @@
-Personal Blog
+# Raathigesh.com #
+This is my personal blog.

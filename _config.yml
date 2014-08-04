@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            return Null;
 locale:           en_US
 url:              http://Raathigesh.github.io
 
@@ -29,7 +29,7 @@ owner:
   name: Raathigeshan
   avatar: bio-photo.jpg
   bio: "I Code Stuff"
-  email: raathigesh92@gmail...
+  email:
   disqus-shortname:
   twitter: Raathigeshan
   facebook: raathigesh
