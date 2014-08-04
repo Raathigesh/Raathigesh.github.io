@@ -26,7 +26,7 @@ JavaScript supports some heavy XML processing but things get messy when it comes
 ## Code Snippets
 
 {% highlight javascript %}
-#container {
+
  function getSingleXmlNode(data, xpath) {
         try {
             var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
@@ -38,9 +38,9 @@ JavaScript supports some heavy XML processing but things get messy when it comes
             var it = doc.evaluate(xpath, doc, null, 5, null);
             var node = it.iterateNext();
             return { text: node.textContent };
-        } 
+        }
     }
-}
+
 {% endhighlight %}
 
 So Happy XML parsing :)
