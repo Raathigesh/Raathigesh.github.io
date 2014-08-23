@@ -15,24 +15,24 @@ Here is a snippet which will covert JSON objects to XML. But keep in mind attrib
 
 function objectToXml(obj) {
         var xml = '';
- 
+
         for (var prop in obj) {
             if (!obj.hasOwnProperty(prop)) {
                 continue;
             }
- 
+
             if (obj[prop] == undefined)
                 continue;
- 
+
             xml += "<" + prop + ">";
             if (typeof obj[prop] == "object")
                 xml += objectToXml(new Object(obj[prop]));
             else
                 xml += obj[prop];
- 
+
             xml += "<!--" + prop + "-->";
         }
- 
+
         return xml;
     }
 
