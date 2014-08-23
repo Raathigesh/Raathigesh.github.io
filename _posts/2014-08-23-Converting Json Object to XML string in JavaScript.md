@@ -9,7 +9,6 @@ image:
   feature: texture-feature-01.jpg
 ---
 Here is a snippet which will covert JSON objects to XML. But keep in mind attributes are not supported.
-## Code Snippets
 
 {% highlight javascript %}
 
