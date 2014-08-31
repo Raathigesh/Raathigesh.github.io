@@ -1,7 +1,10 @@
 # Site navigation links
 - title: Home
   url: /
-  
+
+- title: Archive
+  url: /posts/
+
 - title: Tools
   url: /tools/
 
