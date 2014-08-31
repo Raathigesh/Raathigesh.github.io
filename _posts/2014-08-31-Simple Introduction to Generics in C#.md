@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple Introduction to Generics in C#
-excerpt: "Generics in C# gives the ability to write type independent code rather than allow a class or method to work with only a specific type."
+excerpt: "Generics in C# gives the ability to write type independent code rather than allowing a class or method to work with only a specific type."
 modified: 2014-08-31
 tags: [C#]
 comments: true
@@ -10,9 +10,9 @@ image:
 ---
 
 Generics in C# gives the ability to write type independent code rather than allow a class or method to work with only a specific type. 
-
+     
 Let's consider a scenario where we have to consume a REST service and serialize the response to a defined object. The code would be something similar to below.
-
+      
 {% highlight C# %}
 
 public static MovieData GetMovieData(string URL)
@@ -32,15 +32,15 @@ public static MovieData GetMovieData(string URL)
 }
 
 {% endhighlight %}
-
+    
 Above code works perfectly and fulfills the purpose but assume we need to consume another service method and its going to return "CastData" instead of "MovieData". So are we going to write another get "GetCastData" method? Of course we could write another method but deep down in your heart you know that there should be a better way to do this. 
-
+    
 That's where generics comes into play. Generics is a way of telling your class or method, "Yo Bro, You don't worry about the Type you are going to deal with. When I call you, I'll let you know that information. Cool?".
-
+    
 Noticed that the above "GetMovieData" method deserializes the object as "MovieData" and returns "MovieData". We need to change those two places to be type independent using Generics.
-
+    
 This is how we can achieve this in C#.
-
+    
 {% highlight C# %}
 
 public class ServiceConsumer<T>
