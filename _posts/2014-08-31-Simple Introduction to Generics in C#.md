@@ -11,7 +11,7 @@ image:
 
 Generics in C# gives the ability to write type independent code rather than allowing a class or method to work with only a specific type.
 
-Let's consider a scenario where we have to consume a REST service and serialize the response to a defined object. The code would be something similar to below.
+Let's consider a scenario where we have to consume a REST service and Deserialize the response to a defined object. The code would be something similar to below.
 
 {% highlight C# %}
 
@@ -78,4 +78,4 @@ CastData cData = ServiceConsumer<CastData>.GetData("Cast URL as String"); //T =>
 
 {% endhighlight %}
 
-The above two lines of code specifies the objects that the class is going to deal with at the point of creation. So when GetData is called its going to serialize the data to the specified object and return the particular type object. Freaking Awesome Right?
+The above two lines of code specifies the objects that the class is going to deal with at the point of creation. So when GetData is called its going to deserialize the data to the specified object and return the particular type object. Freaking Awesome Right?
