@@ -2,7 +2,7 @@
 
 title:            //For The Love Of Code
 locale:           en_US
-url:              http://Raathigesh.github.io
+url:              http://Raathigesh.com
 
 
 # Jekyll configuration
@@ -14,7 +14,7 @@ sass:
   sass_dir: _sass
   style: compressed
 gems:
-  
+  - jekyll-sitemap
 
 kramdown:
   auto_ids: true
