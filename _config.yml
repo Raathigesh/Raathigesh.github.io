@@ -35,7 +35,7 @@ owner:
   facebook: raathigesh
   google:
     plus:
-    analytics:UA-32790420-1
+    analytics: "UA-32790420-1"
     verify:
     ad-client:
     ad-slot:
