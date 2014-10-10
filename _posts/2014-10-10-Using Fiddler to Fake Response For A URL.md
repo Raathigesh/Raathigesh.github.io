@@ -1,81 +1,35 @@
 ---
 layout: post
-title: Simple Introduction to Generics in C#
-excerpt: "Generics in C# gives the ability to write type independent code rather than allowing a class or method to work with only a specific type."
-modified: 2014-08-31
-tags: [C#]
+title: Using Fiddler to Fake Response
+excerpt: ""
+modified: 2014-10-10
+tags: [Tools]
 comments: true
 image:
   feature: texture-feature-01.jpg
 ---
 
-Generics in C# gives the ability to write type independent code rather than allowing a class or method to work with only a specific type.
-
-Let's consider a scenario where we have to consume a REST service and Deserialize the response to a defined object. The code would be something similar to below.
-
-{% highlight C# %}
-
-public static MovieData GetMovieData(string URL)
-{
-	Uri uri = new Uri(URL);
-
-	WebRequest webRequest = WebRequest.Create(uri);
-
-	WebResponse response = webRequest.GetResponse();
-
-	StreamReader streamReader = new StreamReader(response.GetResponseStream());
-
-	String responseData = streamReader.ReadToEnd();
-
-	return JsonConvert.DeserializeObject<MovieData>(responseData);
-
-}
-
-{% endhighlight %}
-
-Above code fulfills the purpose but assume we need to consume another service method and its going to return "CastData" instead of "MovieData". So are we going to write another get "GetCastData" method? Of course we could write another method but deep down in your heart you know that there should be a better way to do this.
-
-That's where generics comes into play. Generics is a way of telling your class or method,
-> "Yo Bro, You don't worry about the Type you are going to deal with. When I call you, I'll let you know that information. Cool?".
-
-Noticed that the above "GetMovieData" method deserializes the object as "MovieData" and returns "MovieData". We need to change those two places to be type independent using Generics.
-
-This is how we can achieve this in C#.
-
-{% highlight C# %}
-
-public class ServiceConsumer<T>
-{
-	public static T GetData(string URL)
-	{
-		Uri uri = new Uri(URL);
-
-		WebRequest webRequest = WebRequest.Create(uri);
-
-		WebResponse response = webRequest.GetResponse();
-
-		StreamReader streamReader = new StreamReader(response.GetResponseStream());
-
-		String responseData = streamReader.ReadToEnd();
-
-		return JsonConvert.DeserializeObject<T>(responseData);
-
-	}
-}
-
-{% endhighlight %}
+Fiddler is a must have tool for web developers. The Auto Responder feature of fiddler allows to fake response for a particular request.
 
 
-The "T" denotes the type. So this class will deal with the type that we specify when we create the object.
+
+Open up fiddler and switch to AutoResponder tab.
+<figure>
+	<a href="http://raathigesh.com/images/2014-10-10-Using%20Fiddler%20to%20Fake%20Response%20For%20A%20URL/1%20-%20Auto%20Responder%20Tab.png"><img src="http://raathigesh.com/images/2014-10-10-Using%20Fiddler%20to%20Fake%20Response%20For%20A%20URL/1%20-%20Auto%20Responder%20Tab.png"></a>
+</figure>
 
 
-{% highlight C# %}
+1. Click on "Add Rule" button.
+2. In the bottom of the window, there is a Rule editor which expects a URL and the Type of response you want to return.
+3. We will say "http://Facebook.com" and from the drop-down select "404_plain.dat".
+4. Click "Save"
+5. Go to file menu and click "Capture Traffic".
+6. Try visiting http://Facebook.com and you should see a 404.
 
-MovieData mData = ServiceConsumer<MovieData>.GetData("Movie URL as String"); //T => MovieData
+<figure>
+	<a href="http://raathigesh.com/images/2014-10-10-Using%20Fiddler%20to%20Fake%20Response%20For%20A%20URL/2%20-%20Steps.png"><img src="http://raathigesh.com/images/2014-10-10-Using%20Fiddler%20to%20Fake%20Response%20For%20A%20URL/2%20-%20Steps.png"></a>
+</figure>
 
+You can switch off the automatic responder by un-checking "Enable automatic responses" check box at any moment.
 
-CastData cData = ServiceConsumer<CastData>.GetData("Cast URL as String"); //T => CastData
-
-{% endhighlight %}
-
-The above two lines of code specifies the objects that the class is going to deal with at the point of creation. So when GetData is called its going to deserialize the data to the specified object and return the particular type object. Freaking Awesome Right?
+This is not rocket science but will come in handy for several development testing scenarios.
