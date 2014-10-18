@@ -41,8 +41,8 @@ Before even starting you can take a look at the end product [here](http://html5a
 
 To render a 3D scene on the screen we need three main elements as follows.
 1. 	A Scene
-2. 	A Camera
-3. 	A Renderer
++ 	A Camera
+* 	A Renderer
 
 {% highlight javascript %}
 function AudioVisualizer() {
