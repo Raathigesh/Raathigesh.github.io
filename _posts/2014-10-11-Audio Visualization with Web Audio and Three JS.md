@@ -29,7 +29,8 @@ HTML 5 allows to do many cool stuff within your browser without depending on ext
 </figure>
 
 
-Let's break it down and focus one task at a time.
+Let's break it down and focus one task at a time. 
+
 - Creating  a Three.js scene and adding required geometry elements
 - Reading the sound file content
 - Analysing the audio data and rendering the scene
@@ -40,6 +41,7 @@ Before even starting you can take a look at the end product [here](http://html5a
 ## Create a Three.js scene ##
 
 To render a 3D scene on the screen we need three main elements as follows.
+
 1. 	A Scene
 + 	A Camera
 * 	A Renderer
