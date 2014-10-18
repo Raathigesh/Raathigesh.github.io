@@ -3,7 +3,7 @@ layout: post
 title: Audio Visualization with Web Audio and Three.js
 excerpt: "HTML 5 allows to do many cool stuff within your browser without depending on external plugins. This post talks about visualizing audio using Web Audio API and Three.js. Web Audio API allows to control audio on the web. For more details on Web Audio. Three.js, as their website says, A JavaScript 3D Library which makes WebGL simpler. So our intention here is to get the audio data from Web Audio API and using Three.js and its going to be in 3D."
 modified: 2014-10-18
-tags: [JavaScript], [Three.js], [WebAudio]
+tags: [JavaScript]
 comments: true
 image:
   feature: Audio_Post.jpg 
