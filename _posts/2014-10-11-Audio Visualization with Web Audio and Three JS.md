@@ -9,6 +9,16 @@ image:
   feature: Audio_Post.jpg 
 ---
 
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>Overview</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section><!-- /#table-of-contents -->
+
 # Introduction  #
 
 HTML 5 allows to do many cool stuff within your browser without depending on external plugins. This post talks about visualizing audio using Web Audio API and Three.js. Web Audio API allows to control audio on the web. For more details on Web Audio, please refer the [MDN page](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API). Three.js, as their website says, A JavaScript 3D Library which makes WebGL simpler. So our intention here is to get the audio data from Web Audio API and using Three.js and its going to be in 3D. 
@@ -283,7 +293,7 @@ and the following line to the "onaudioprocess" method.
 #Code#
 You can take a look the the full code here.
 
-https://github.com/Raathigesh/HTML5AudioVisualizer
+[https://github.com/Raathigesh/HTML5AudioVisualizer](https://github.com/Raathigesh/HTML5AudioVisualizer)
 
 #Conclusion#
 This post describes a way to visalize audio data using the WebAudio API and Three.js. As we alreay noticed with JavascriptNode, the HTML 5 specification for WebAudio API is not stable yet. This code could break anytime in the future but I will keep an eye on it. Go crazy and do all kind of cool stuff with HTML 5 and have fun. I really had a great time implementing this piece of code and the result was pretty amazing. Go rock the world with HTML 5 :).
