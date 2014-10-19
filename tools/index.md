@@ -30,6 +30,7 @@ image:
 4. [Cmder - Simple Console Emulator](http://bliker.github.io/cmder/)
 5. [ILSpy - Allows you to dig deep into dlls](http://ilspy.net/)
 6. [Atom - So far So Awesome Everyday Editor](http://atom.io/)
+7. [Process Hacker - Great to take a close look at processes](http://processhacker.sourceforge.net/)
 
 ##Design
 1. [Metro Icons - Bunch of awesome flat icons in one place](http://www.syncfusion.com/downloads/metrostudio)
