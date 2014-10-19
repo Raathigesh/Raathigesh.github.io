@@ -13,7 +13,7 @@ image:
 Simple attempt to visualize audio in 3D using HTML 5 technologies.
 
 <figure>
-	<a href="http://raathigesh.com/images/2014-10-18-Audio%20Visualization%20with%20Web%20Audio%20and%20Three.js/Demo.PNG"><img src="http://raathigesh.com/images/2014-10-18-Audio%20Visualization%20with%20Web%20Audio%20and%20Three.js/Demo.PNG"></a>
+	<a href="http://raathigesh.com/images/Lab/1%20Audio%20Visualizer.png"><img src="http://raathigesh.com/images/Lab/1%20Audio%20Visualizer.png"></a>
     <figcaption>Audio Visualizer in Action</figcaption>
 </figure>
 
