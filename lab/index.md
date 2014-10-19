@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab
+title: 
 tags: [Experiments]
 modified: 2014-10-19
 comments: false
