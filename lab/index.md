@@ -5,8 +5,8 @@ tags: [Experiments]
 modified: 2014-10-19
 comments: false
 image:
-  feature: Labs.jpg
-  creditlink: http://alpha.wallhaven.cc/
+  feature: 
+  creditlink: 
 ---
 
 
