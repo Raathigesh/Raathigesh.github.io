@@ -5,14 +5,14 @@ tags: [Experiments]
 modified: 2014-10-19
 comments: false
 image:
-  feature: 
+  feature: Labs.jpg
+  creditlink: http://alpha.wallhaven.cc/
 ---
 
 
 ##1 - Audio Visualizer Using Web Audio API & Three.Js##
 <figure>
 	<a href="http://raathigesh.com/images/Lab/1%20Audio%20Visualizer.png"><img src="http://raathigesh.com/images/Lab/1%20Audio%20Visualizer.png"></a>
-    <figcaption>Audio Visualizer in Action</figcaption>
 </figure>
 Simple attempt to visualize audio in 3D using HTML 5 technologies.
 
