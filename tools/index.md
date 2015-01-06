@@ -22,6 +22,8 @@ image:
 
 ##Code
 1. *[Resharper - Just Awesome!](http://www.jetbrains.com/resharper/)*
+2. [Code Maid VS Extension](http://www.codemaid.net/)
+3. [VS Command Extension](http://vscommands.squaredinfinity.com/)
 
 ##Utilities
 1. [Process Explorer - Easy to use process explorer](http://technet.microsoft.com/en-us/sysinternals/bb896653.aspx)
@@ -32,6 +34,8 @@ image:
 6. [Atom - So far So Awesome Everyday Editor](http://atom.io/)
 7. [Process Hacker - Great to take a close look at processes](http://processhacker.sourceforge.net/)
 8. [Brackets - I liked it more than the Atom editor](http://brackets.io/?lang=en)
+9. [Free XML Editor](http://www.firstobject.com/dn_editor.htm)
+10.[My Event Viewer - Fast and simple event viewer](http://www.nirsoft.net/utils/my_event_viewer.html)
 
 ##Design
 1. [Metro Icons - Bunch of awesome flat icons in one place](http://www.syncfusion.com/downloads/metrostudio)
