@@ -61,9 +61,12 @@ Another imporant advantage of fluent style API is, they are self discoverable. M
 
 Even C# team realized the convenience of fluent style API's and used them to implemented API like LINQ. Consider the following example.
 
+{% highlight C# %}
 var Results = items.Where(e => e.Approved)
-    .OrderBy(e => e.ProductionDate).Select(e => e.Name)
+    .OrderBy(e => e.ProductionDate)
+    .Select(e => e.Name)
     .FirstOrDefault();
+{% endhighlight %}
     
 Even though fluent APIs are neat, they wont be appicable for all the situations. As programmers we have a tendency to apply the new thing we learn in all the places. Honestly I tried to apply fluent API in several situations when I got to know about them. But in some instances they just dont work. But there are best fit certain scenarios where fluent APIs excel as well. So use them wisely!
 
