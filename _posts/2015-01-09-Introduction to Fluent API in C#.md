@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Fluent API in C#
-excerpt: ""
+excerpt: "In object orientation programming, fluent APIs are just like any other APIs but they provide a more human redable code. Consider a scenario where we want to build an object called Car and assign some properties to it."
 modified: 2015-01-09
 tags: [.Net]
 comments: true
