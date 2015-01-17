@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing Unit Testable Code in .Net with Dependency Injection
-excerpt: ""
+excerpt: "The idea of test driven development is to drive the development through unit tests. When ever we attempt to write a unit of code or a method we follow the following steps"
 modified: 2015-01-06
 tags: [.Net]
 comments: true
@@ -9,7 +9,7 @@ comments: true
 
 ##Hello Test Driven Development##
 
-The idea of test driven development is to drive the development through unit tests. When ever we attempt to write a unit of code or a method we follow the following steps
+The idea of test driven development is to drive the development through unit tests. When ever we attempt to write a unit of code or a method we follow the following steps.
 
 - First write a unit test case for the method. This test case is going to fail at first because we don't have our actual method implemented yet. Can't even compile the code sometimes. 
 - Write the actual method with the minimum code required to make the test case pass. 
