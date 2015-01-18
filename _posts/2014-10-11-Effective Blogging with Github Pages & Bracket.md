@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blogging with GitHug Pages & Brackets 
+title: Blogging with GitHub Pages & Brackets 
 excerpt: "I like to blog. Blogging enables to share knowledge, viewes and findings with others. More than that, I blog because it may help my future self to refer certain findings quickly."
 modified: 2014-10-19
 tags: [Tools]
