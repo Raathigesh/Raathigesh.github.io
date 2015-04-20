@@ -45,3 +45,6 @@ image:
 
 #Entertainment
 - [Media Monkey - Awesome Media Player](http://www.mediamonkey.com/) 
+
+#Management
+- [Adobe Digital Editions - Helps to manage Ebooks effectively](http://www.adobe.com/solutions/ebook/digital-editions.html)
