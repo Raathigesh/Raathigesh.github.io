@@ -1,7 +1,7 @@
 ---
 layout: post
-Using FakeItEasy To Fake Objects
-excerpt: ""
+title: Using FakeItEasy To Fake Objects
+excerpt: "Fake objects allows to unit test components individually by faking the behavior of dependent components."
 modified: 2015-04-22
 tags: [C#]
 comments: true
