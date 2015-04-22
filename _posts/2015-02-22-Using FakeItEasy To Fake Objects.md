@@ -80,15 +80,15 @@ Since we are testing the implementation details of the Car, we don't need to wor
 
  Let's go through the above code line by line.
 
- 1. First we are creating a fake engine by providing the interface to Fake it easy.
- 2. We are saying to fake it easy "If someone invokes IsRunning() return false always."
+ 1. Creating a fake engine by providing the interface to Fake it easy.
+ 2. Saying to fake it easy, "If someone invokes IsRunning() return false always."
  3. Creating a Car object with the fake engine.
  4. Starting the Car.
  5. Asserting to check weather Start() method is invoked in the fake engine.
 
- We have successfully isolated the engine from our test case and tested the logic of our car class successfully.
+ We have isolated the engine from our test case and tested the logic of our car class successfully.
 
- ##Fake It Easy Quick Reference##
+##Fake It Easy Quick Reference##
 
 Creating a fake object using an interface.
 
