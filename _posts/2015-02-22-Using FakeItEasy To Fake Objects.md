@@ -124,6 +124,8 @@ A.CallTo(() =>fakeDog.Bark()).MustHaveHappened(Repeated.Exactly.Once);
 
 Asserting weather a method was invoked with particular parameter where the parameter is a complex object.
 
-A.CallTo(() => fakeStudent.Update(A< Details >.That.Matches(p =>
+{% highlight C# %}
+A.CallTo(() => fakeStudent.Update(A<Details>.That.Matches(p =>
                p.Name == "Sam" &&
                p.Age == 10 ))).MustHaveHappened();
+{% endhighlight %}
