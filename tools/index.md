@@ -14,14 +14,11 @@ published: true
 **[Resharper : ](http://www.jetbrains.com/resharper/)** Excellent plugin for visual studio which is make you super productive.
 {: .notice}
 
--[Resharper](http://www.jetbrains.com/resharper/)
-Excellent plugin for visual studio which is make you super productive.
+**[Code Maid VS Extension : ](http://www.codemaid.net/)** Personally I love the code maid beacause it helps to navigate through long files very effectively. Not to mention there are bunch of more useful features bundled in.
+{: .notice}
 
--[Code Maid VS Extension](http://www.codemaid.net/)
-Personally I love the code maid beacause it helps to navigate through long files very effectively. Not to mention there are bunch of more useful features bundled in.  
-
-####[VS Command Extension](http://vscommands.squaredinfinity.com/)
-Adds some bells and whistles to visual studio. Specially the "Attach" button which attaches to the appropriate process to start debugging is a killer feature.
+**[VS Command Extension : ](http://vscommands.squaredinfinity.com/)** Adds some bells and whistles to visual studio. Specially the "Attach" button which attaches to the appropriate process to start debugging is a killer feature.
+{: .notice}
 
 ###Text Editors
 ####[Sublime](http://www.sublimetext.com/)
