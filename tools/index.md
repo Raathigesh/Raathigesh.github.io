@@ -10,13 +10,11 @@ image:
 published: true
 ---
 
-> Unfortunately some of these awesome tools are not free. Those are in italics for your convenience.
-
 ###Visual Studio Extensions
-####*[Resharper](http://www.jetbrains.com/resharper/)*
+-[Resharper](http://www.jetbrains.com/resharper/)
 Excellent plugin for visual studio which is make you super productive.
 
-####[Code Maid VS Extension](http://www.codemaid.net/)
+-[Code Maid VS Extension](http://www.codemaid.net/)
 Personally I love the code maid beacause it helps to navigate through long files very effectively. Not to mention there are bunch of more useful features bundled in.  
 
 ####[VS Command Extension](http://vscommands.squaredinfinity.com/)
