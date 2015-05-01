@@ -11,6 +11,9 @@ published: true
 ---
 
 ###Visual Studio Extensions
+**[Resharper : ](http://www.jetbrains.com/resharper/)** Excellent plugin for visual studio which is make you super productive.
+{: .notice}
+
 -[Resharper](http://www.jetbrains.com/resharper/)
 Excellent plugin for visual studio which is make you super productive.
 
