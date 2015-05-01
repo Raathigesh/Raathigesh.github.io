@@ -23,7 +23,7 @@ published: true
 > Unfortunately some of these awesome tools are not free. Those are in italics for your convenience.
 
 ##Visual Studio Extensions
-### _[Resharper](http://www.jetbrains.com/resharper/)_
+###_[Resharper](http://www.jetbrains.com/resharper/)_
 Excellent plugin for visual studio which is make you super productive.
 
 ###[Code Maid VS Extension](http://www.codemaid.net/)
