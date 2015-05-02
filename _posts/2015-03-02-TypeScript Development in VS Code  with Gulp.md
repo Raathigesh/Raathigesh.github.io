@@ -8,7 +8,7 @@ comments: true
 ---
 
 ##Introduction##
-Microsoft released VS Code, A light weight code editor for Asp.Net 5 and NodeJs development. This post is going to explore how to use VS Code for TypeScript development with Gulp watch task. First of all there is a great post covering the basic of setting up VSCode to compile TypeScript available [here](http://blogs.msdn.com/b/typescript/archive/2015/04/30/using-typescript-in-visual-studio-code.aspx). I would encourage you to go through that post first before continuing.
+Microsoft released VS Code, A light weight code editor for Asp.Net 5 and NodeJs development. This post is going to explore how to use VS Code for TypeScript development with Gulp watch task. First of all there is a great post covering the basic of setting up VSCode to compile TypeScript available [here](http://blogs.msdn.com/b/typescript/archive/2015/04/30/using-typescript-in-visual-studio-code.aspx). I encourage you to go through that post first before continuing.
 
 ##Installing Softwares
 
