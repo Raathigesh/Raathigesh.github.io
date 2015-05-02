@@ -67,7 +67,7 @@ gulp.task('watch', function () {
 });
 {% endhighlight %}
 
-####Creating a tasks.json
+####Creating tasks.json
 If you press `Ctrl + Shift + B` you will be prompted to configure the task runner if there is no tasks.json file exists. Please do so if VSCode prompts.
 
 
