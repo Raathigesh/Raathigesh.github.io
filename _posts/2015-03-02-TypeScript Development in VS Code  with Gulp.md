@@ -8,7 +8,7 @@ comments: true
 ---
 
 ##Introduction##
-Microsoft released VS Code, A light weight code editor for Asp.Net 5 and NodeJs development. This post is going to explore how to use VS Code for TypeScript development with Gulp watch task to automatically build with each change. First of all there is an great post covering the basic of setting up VSCode to compile TypeScript available [here](http://blogs.msdn.com/b/typescript/archive/2015/04/30/using-typescript-in-visual-studio-code.aspx). I would encourage you to go through that post first before continuing.
+Microsoft released VS Code, A light weight code editor for Asp.Net 5 and NodeJs development. This post is going to explore how to use VS Code for TypeScript development with Gulp watch task. First of all there is a great post covering the basic of setting up VSCode to compile TypeScript available [here](http://blogs.msdn.com/b/typescript/archive/2015/04/30/using-typescript-in-visual-studio-code.aspx). I would encourage you to go through that post first before continuing.
 
 ##Installing Softwares
 
@@ -24,10 +24,10 @@ After installing, if you open up the command prompt and type "tsc", you should s
 ![](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/images/VSCodeTypeScript/tsc_cmd.PNG)
 
 
-Note that during the time of this post the TypeScript version was 1.5.0-beta. Make sure to install the specific or latest version.
+Note that during the time of this post the latest TypeScript version was 1.5.0-beta. Make sure to install the specific or latest version.
 
 ####Gulp and GulpTsc
-Create a directory some where in your disk. This is the director our project files are going to live. Now navigate to the newly created director in your command prompt and start executing the following commands. Now it's time to install Gulp, the JavaScript task runner. Execute the following command.
+Create a directory some where in your disk. This is the directory our project files are going to live in. Now navigate to the newly created directory in your command prompt and start executing the following commands. It's time to install Gulp, the JavaScript task runner. Execute the following command.
 
     npm install gulp
 
@@ -44,7 +44,7 @@ create a new file called `tsconfig.json` and make it look like this.
 ![](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/images/VSCodeTypeScript/tsconfig.PNG)
 
 
-Create a folder called `src` and under that create a folder called `main.ts`.
+Create a folder called `src` and under that create a file called `main.ts`.
 
 #### The Gulp File
 Create a file named `gulpfile.js` in the root of the folder. The gulp file is the one contains the gulp task which will build out TypeScript files every time we make a change and generate the actual JavaScript files.
