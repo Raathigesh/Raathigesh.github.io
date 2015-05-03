@@ -11,7 +11,7 @@ published: true
 ---
 
 ###Visual Studio Extensions
-**[Resharper : ](http://www.jetbrains.com/resharper/)** Excellent plugin for visual studio which is make you super productive.
+**[Resharper : ](http://www.jetbrains.com/resharper/)** Excellent plugin for visual studio which makes you super productive.
 {: .notice}
 
 **[Code Maid VS Extension : ](http://www.codemaid.net/)** Personally I love the code maid beacause it helps to navigate through long files very effectively. Not to mention there are bunch of more useful features bundled in.
