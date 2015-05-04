@@ -37,6 +37,9 @@ published: true
 **[My Event Viewer : ](http://www.nirsoft.net/utils/my_event_viewer.html)** Windows event viewer is SLOOOOOW. My enent viewer is FAAAAAAST.
 {: .notice}
 
+**[Rapid Environment Editor : ](http://www.rapidee.com/en/about)** An environment variable editor that will take away the pain of working with windows native editor UI.
+{: .notice}
+
 **[Process Explorer : ](http://technet.microsoft.com/en-us/sysinternals/bb896653.aspx)** Helps to take a closer look into processes.
 {: .notice}
 
