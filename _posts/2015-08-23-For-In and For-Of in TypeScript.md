@@ -1,6 +1,6 @@
 ---
 layout: post
-title: For-In and For-Of in TypeScript
+title: Loops: For-in and For-of in TypeScript
 excerpt: "TypeScript provides some nice syntactical sugar to write readable code and get around some of the JavaScript language quirks."
 modified: 2015-08-23
 tags: [TypeScript, JavaScript]
