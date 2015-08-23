@@ -18,7 +18,7 @@ So first you have to find a project that you want to contribute to. I started lo
 I picked [a small defect related to .ToString()](https://github.com/MehdiK/Humanizer/issues/450) and started the discussion. The maintainer was very engaging and he answered all the questions very clearly.
 
 ### For the project and Check out
-Once you are confident about the fix that you are going to make, not it's show time. Fork the project to your account and checkout the repository and start hacking.
+Once you are confident about the fix that you are going to make, now it's show time. Fork the project to your account and checkout the repository and start hacking.
 
 ### Issue a merge request
 Once you fixed the issue and committed the changes to your fork, you can issue a pull request (PR). If your fix is good enough and you have followed the guidelines for contributions, the maintainer will merge the changes to the master. 
