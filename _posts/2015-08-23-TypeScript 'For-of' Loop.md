@@ -1,15 +1,15 @@
 ---
 layout: post
 title: TypeScript For-of Loop
-excerpt: "TypeScript provides some nice syntactical sugar to write readable code and get around some of the JavaScript language quirks."
+excerpt: "TypeScript is implementing ES6 and ES7 features more and more with every new release. Now we have the awesome For-of loop in TypeScript 1.5."
 modified: 2015-08-23
 tags: [TypeScript, JavaScript]
 comments: true
 ---
 
-TypeScript provides some nice syntactical sugar to write readable code and get around some of the JavaScript language quirks. 
+TypeScript is implementing ES6 and ES7 features more and more with every new release. Now we have the awesome For-of loop in TypeScript 1.5. 
 
-If we want to iterate through an array of items, we could use for loop as below and get things done.
+If we want to iterate through an array of items in ES5 (The current version of JavaScript), we could use for loop as below and get things done.
 
 {% highlight javascript %}
 var Items = ["Key", "Phone", "Car"];
@@ -19,10 +19,10 @@ for (var x = 0; x < Items.length; x++) {
 }
 {% endhighlight %}
 
-I think you would agree this code is not so readable.
+I think you would agree that this code is not very readable.
 
 ## For-In Loop
-JavaScript also has a For-In loop which we could use to iterate over an array as below but IT DOESN'T WORK AS EXPECTED.
+JavaScript (ES5) also has a For-In loop which we could use to iterate over an array as below but IT DOESN'T WORK AS EXPECTED.
 
 {% highlight javascript %}
 var Items = ["Key", "Phone", "Car"];
@@ -42,11 +42,13 @@ Instead of printing out the items in the array to the console, the above code pr
 
 Well that sucks.
 
-## TypeScript Is To Rescue
-No need to worry at all. TypeScript is awesome at doing type checking but it also got some nice helpers which could help us to write more readable code. 
+## TypeScript / ES6 Is To Rescue
+We can use the For-of loop of ES6 in TypeScript today if you are using the very latest version of TypeScript. 
 
-### The For-Of Loop Of TypeScript
-Since the For-In loop of JavaScript is a disappointment, the TypeScript team decided to introduce a new loop called For-Of loop which looks like this.
+### The For-of Loop Of TypeScript
+Due to this limitation of the For-in loop, ECMASCRIPT 6 introduces For-of loop.
+
+For-of loop looks like this.
 
 {% highlight javascript %}
 var Items = ["Key", "Phone", "Car"];
@@ -64,7 +66,7 @@ This code prints out the elements in the array as we would expect.
 > Car
 {% endhighlight %}
 
-But under the hood TypeScript is translating this into good old for loop as below.
+For-of loop is available in TypeScript 1.5. If you are compiling to ECMASCRIPT 5 in TypeScript, under the hood TypeScript is translating this into good old for loop as below.
 
 {% highlight javascript %}
 var Items = ["Key", "Phone", "Car"];
