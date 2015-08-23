@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Loops: TypeScript's For-of Loop
+title: Loops: TypeScript For-of Loop
 excerpt: "TypeScript provides some nice syntactical sugar to write readable code and get around some of the JavaScript language quirks."
 modified: 2015-08-23
 tags: [TypeScript, JavaScript]
