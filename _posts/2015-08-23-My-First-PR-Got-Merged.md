@@ -21,7 +21,7 @@ I picked [a small defect related to .ToString()](https://github.com/MehdiK/Human
 Once you are confident about the fix that you are going to make, now it's show time. Fork the project to your account and checkout the repository and start hacking.
 
 ### Issue a merge request
-Once you fixed the issue and committed the changes to your fork, you can issue a pull request (PR). If your fix is good enough and you have followed the guidelines for contributions, the maintainer will merge the changes to the master. 
+Once you fix the issue and commit the changes to your fork, you can issue a pull request (PR). If your fix is good enough and you have followed the guidelines for contributions, the maintainer will merge the changes to the master. 
 
 [My pull request](https://github.com/MehdiK/Humanizer/pull/453) was not that elegant and Mehdi suggested some changes that could make the PR even more elegant.
 
