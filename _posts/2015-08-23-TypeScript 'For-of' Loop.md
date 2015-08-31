@@ -42,6 +42,8 @@ Instead of printing out the items in the array to the console, the above code pr
 
 Well that sucks.
 
+> UPDATE: As [Sabry](https://twitter.com/sabry1991) pointed out in the comment, For-In should be used to iterate over the properties of an object and should not be used with arrays. [The MDN documentation discusses this further.](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/for...in)
+
 ## TypeScript / ES6 Is To Rescue
 We can use the For-of loop of ES6 in TypeScript today if you are using the very latest version of TypeScript. 
 
