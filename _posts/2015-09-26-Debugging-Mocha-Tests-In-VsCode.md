@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-excerpt: ""
+excerpt: VS Code proving to be a very capable editor to me. In this post I will go over the steps to debug Mocha unit tests for NodeJs in VS Code.
 modified: 2015-09-26T00:00:00.000Z
 tags: 
   - TypeScript
