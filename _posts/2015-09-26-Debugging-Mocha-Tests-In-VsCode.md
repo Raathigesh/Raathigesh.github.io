@@ -24,7 +24,7 @@ Let's assume you have all your tests under a folder called **_test_**.
 
 <script src="https://gist.github.com/Raathigesh/2dd2979a358b7fc93177.js"></script>
 
-4. Put a debug point and run the task.
+Put a debug point and run the task.
 
 
 
