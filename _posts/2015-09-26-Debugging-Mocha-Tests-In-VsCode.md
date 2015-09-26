@@ -26,16 +26,16 @@ Let's assume you have all your tests under a folder called **_tests_**.
 		{
             "name": "Run mocha",
             "type": "node",
-            "program": "C:/Users/RaathigeshanK/AppData/Roaming/npm/node_modules/mocha/bin/_mocha",
+            "program": "C:/Users/John/AppData/Roaming/npm/node_modules/mocha/bin/_mocha", //Globally installed mocha
             "stopOnEntry": false,			
-            "args": ["dist/test/**/*.js"],
+            "args": ["test/**/*.js"], // Specify which are the file you want the runner to pick up.
             "cwd": ".",
             "runtimeExecutable": null,
             "env": { 
 				"NODE_ENV": "production"
 			},
-			"sourceMaps": true,
-			"outDir": "dist/test/"
+			"sourceMaps": true, // If you are using Typescript and you alread have sourcemaps generated in the test folder, simple specifying this flag will give the luxry of debugging the typescript test instead of JavaScript.
+			"outDir": "test/" // This is the directory where your tests are located.
         }
 	]
 }
