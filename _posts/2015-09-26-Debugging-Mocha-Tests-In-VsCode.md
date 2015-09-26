@@ -25,10 +25,12 @@ Let's assume you have all your tests under a folder called **_tests_**.
             "name": "Run mocha",
             "type": "node",
             
-            //Globally installed mocha
+            // Globally installed mocha
             "program": "C:/Users/John/AppData/Roaming/npm/node_modules/mocha/bin/_mocha", 
             "stopOnEntry": false,			
-            "args": ["test/**/*.js"], // Specify which are the file you want the runner to pick up.
+            
+            // Specify which are the file you want the runner to pick up.
+            "args": ["test/**/*.js"], 
             "cwd": ".",
             "runtimeExecutable": null,
             "env": { 
