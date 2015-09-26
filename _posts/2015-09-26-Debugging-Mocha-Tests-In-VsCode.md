@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: ""
 modified: 2015-09-26T00:00:00.000Z
