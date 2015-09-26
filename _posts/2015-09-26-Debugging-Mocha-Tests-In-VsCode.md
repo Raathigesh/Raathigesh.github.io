@@ -17,37 +17,6 @@ Let's assume you have all your tests under a folder called **_tests_**.
 1. Create a launch.json file and add a new task named **Run Mocha**.
 2. Install Mocha globally using the command **npm install mocha -g**
 3. Configure the VS Code task as below in the launch.json file.
-{% highlight javascript %}
-{
-	"version": "0.1.0",
-	"configurations": [		
-		{
-            "name": "Run mocha",
-            "type": "node",
-            
-            // Globally installed mocha
-            "program": "C:/Users/John/AppData/Roaming/npm/node_modules/mocha/bin/_mocha", 
-            "stopOnEntry": false,			
-            
-            // Specify which are the file you want the runner to pick up.
-            "args": ["test/**/*.js"], 
-            "cwd": ".",
-            "runtimeExecutable": null,
-            "env": { 
-				"NODE_ENV": "production"
-			},
-            
-            /* If you are using Typescript and you alread have sourcemaps generated in 	              * the test folder, simple specifying this flag will give the luxry 
-             * of debugging the typescript test instead of JavaScript.
-             */
-			"sourceMaps": true, 
-            
-            // This is the directory where your tests are located.
-			"outDir": "test/" 
-        }
-	]
-}
-{% endhighlight %}
 
 <script src="https://gist.github.com/Raathigesh/2dd2979a358b7fc93177.js"></script>
 
