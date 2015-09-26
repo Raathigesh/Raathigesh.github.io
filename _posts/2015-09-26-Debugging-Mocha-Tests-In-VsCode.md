@@ -20,13 +20,13 @@ Let's assume you have all your tests under a folder called **_tests_**.
 {% highlight javascript %}
 {
 	"version": "0.1.0",
-	// List of configurations. Add new configurations or edit existing ones.
-	// ONLY "node" and "mono" are supported, change "type" to switch.
 	"configurations": [		
 		{
             "name": "Run mocha",
             "type": "node",
-            "program": "C:/Users/John/AppData/Roaming/npm/node_modules/mocha/bin/_mocha", //Globally installed mocha
+            
+            //Globally installed mocha
+            "program": "C:/Users/John/AppData/Roaming/npm/node_modules/mocha/bin/_mocha", 
             "stopOnEntry": false,			
             "args": ["test/**/*.js"], // Specify which are the file you want the runner to pick up.
             "cwd": ".",
@@ -34,8 +34,14 @@ Let's assume you have all your tests under a folder called **_tests_**.
             "env": { 
 				"NODE_ENV": "production"
 			},
-			"sourceMaps": true, // If you are using Typescript and you alread have sourcemaps generated in the test folder, simple specifying this flag will give the luxry of debugging the typescript test instead of JavaScript.
-			"outDir": "test/" // This is the directory where your tests are located.
+            
+            /* If you are using Typescript and you alread have sourcemaps generated in 	              * the test folder, simple specifying this flag will give the luxry 
+             * of debugging the typescript test instead of JavaScript.
+             */
+			"sourceMaps": true, 
+            
+            // This is the directory where your tests are located.
+			"outDir": "test/" 
         }
 	]
 }
