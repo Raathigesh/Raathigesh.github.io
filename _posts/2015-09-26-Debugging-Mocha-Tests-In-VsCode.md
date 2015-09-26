@@ -12,7 +12,7 @@ comments: true
 
 VS Code proving to be a very capable editor to me. In this post I will go over the steps to debug [Mocha](https://mochajs.org/) unit tests for NodeJs in VS Code.
 
-Let's assume you have all your tests under a folder called **_tests_**. 
+Let's assume you have all your tests under a folder called **_test_**. 
 
 1. Create a launch.json file and add a new task named **Run Mocha**.
 2. Install Mocha globally using the command **npm install mocha -g**
