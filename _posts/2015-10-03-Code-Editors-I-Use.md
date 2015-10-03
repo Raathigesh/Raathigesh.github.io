@@ -30,5 +30,7 @@ Another fantastic piece of software excels in a completly diffent area, The serv
 I use VS Code for Node JS development mainly and here are the reasons why I like this editor.
 
 - Excellent Node JS Debuggign Support
-	- Brake Points
-    - 
+	- Feature rich editing expirience in the editor
+    - Interactive Console
+- Typescript support is excellent.
+- Intellisense is awesome. Even for vanilla JavaScript.
