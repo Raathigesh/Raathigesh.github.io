@@ -23,7 +23,7 @@ I love tools. I'm in a constant lookout for great tools and when I see a promisi
 
 I'm starting to love this peice of software verymuch. 
 
-### The things why I love Atom
+### The things I love about Atom
 - Default theme is very pleasing.
 - Extension eco system is awesome.
 - Autocomplete is sexy looking.
