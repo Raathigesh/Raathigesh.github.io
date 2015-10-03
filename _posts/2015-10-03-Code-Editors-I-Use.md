@@ -2,7 +2,7 @@
 published: true
 layout: post
 excerpt: "I love tools. I'm in a constant lookout for great tools and when I see a promising one, I try them out. This post is going to be a quick look into the open source code editors I use, Why I use them, What they are good at and What they are bad at."
-modified: 2015-10-03T00:00:00.000Z
+modified: {}
 tags: 
   - Code
   - Editors
@@ -14,6 +14,7 @@ tags:
 comments: true
 ---
 
+
 I love tools. I'm in a constant lookout for great tools and when I see a promising one, I try them out. This post is going to be a quick look into the open source code editors I use, Why I use them, What they are good at and What they are bad at.
 
 ## [Atom](https://atom.io/)
@@ -22,7 +23,7 @@ I love tools. I'm in a constant lookout for great tools and when I see a promisi
 
 I'm starting to love this peice of software verymuch. 
 
-### He are the things why I love Atom
+### The things why I love Atom
 - Default theme is very pleasing.
 - Extension eco system is awesome.
 - Autocomplete is sexy looking.
