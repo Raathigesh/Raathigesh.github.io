@@ -16,7 +16,7 @@ comments: true
 
 I love tools. I'm in a constant lookout for great tools and when I see a promising one, I try them out. This post is going to be a quick look into the open source code editors I use, Why I use them, What they are good at and What they are bad at.
 
-## Atom
+## [Atom](https://atom.io/)
 
 ![](https://atom.io/assets/screenshot-main-f609d95c29e5190787970f8c83762fcb.png)
 
@@ -41,7 +41,7 @@ I'm starting to love this peice of software verymuch.
 
 So what about Brackets? I tried brackets around 6 months ago but I was not very impressed with it as a Code editor. It seems like bracket's target is more towards UI developers with the tight intergration to Adobe's eco system. But again I didn't try the recent releases, So I can't say much. Maybe I should give it a try again.
 
-## Visual Studio Code
+## [Visual Studio Code](https://code.visualstudio.com/)
 
 ![](https://i3-vso.sec.s-msft.com/dynimg/IC794096.png)
 
