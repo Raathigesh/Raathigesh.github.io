@@ -1,9 +1,16 @@
 ---
 published: true
 layout: post
-excerpt: null
+excerpt: "I love tools. I'm in a constant lookout for great tools and when I see a promising one, I try them out. This post is going to be a quick look into the open source code editors I use, Why I use them, What they are good at and What they are bad at."
 modified: 2015-10-03T00:00:00.000Z
-tags: null
+tags: 
+  - Code
+  - Editors
+  - VSCode
+  - VisualStudioCode
+  - Atom
+  - GithubAtom
+  - AtomEditor
 comments: true
 ---
 
