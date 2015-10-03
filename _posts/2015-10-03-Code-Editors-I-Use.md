@@ -60,3 +60,6 @@ I use VS Code for Node JS development mainly.
 
 ### Things I would like to see improve.
 - Plugin Support. I know the team is working on this feature but its very crusial at this point since there are small things missing in the editor and they could be written as nice little plugins.
+
+## Things are good so far
+So far I'm happy with these two! Atom is for front end developement and VS Code is for Node JS developement with debugging. If I find a better alternative, I'll let you know. You have a better alternative? Leave me a comment. I would like to try them out!
