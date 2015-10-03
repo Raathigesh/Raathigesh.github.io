@@ -22,6 +22,9 @@ Things I would like to see improve
 - The startup time. I use this in a windows workstation with 16GB of RAM but still it takes a bit of time to start.
 - Intermitant Hangs. Yes! It hangs sometimes. I would love to see them gone.
 
+### The Pluging I Have Installed For Atom
+- atom-typescript
+
 So what about Brackets? I tried brackets around 6 months ago but I was not very impressed with it as a Code editor. It seems like bracket's target is more towards UI developers with the tight intergration to Adobe's eco system. But again I didn't try the recent releases, So I can't say much. Maybe I should give it a try again.
 
 ## Visual Studio Code
@@ -34,3 +37,7 @@ I use VS Code for Node JS development mainly and here are the reasons why I like
     - Interactive Console
 - Typescript support is excellent.
 - Intellisense is awesome. Even for vanilla JavaScript.
+- Fast as #&*(@#@&#^*&.
+
+Things I would like to see improve.
+- Plugin Support. I know the team is working on this feature but its very crusial at this point since there are small things missing in the editor and they could be written as nice little plugins.
