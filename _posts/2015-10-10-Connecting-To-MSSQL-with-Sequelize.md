@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: "Sequelize is a Node Js ORM which provides an abstraction to work with various databases such as PostgreSQL, MySQL, MariaDB, SQLite and MSSQL."
 modified: {}
@@ -12,6 +12,7 @@ tags:
   - Database
 comments: true
 ---
+
 
 Sequelize is a Node Js ORM which provides an abstraction to work with various databases such as PostgreSQL, MySQL, MariaDB, SQLite and MSSQL.
 
@@ -31,5 +32,3 @@ return new Sequelize('SystemDB', 'sa', 'password', {
 			}
 		});
 {% endhighlight %}
-
-
