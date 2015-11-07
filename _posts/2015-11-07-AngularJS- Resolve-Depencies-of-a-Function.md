@@ -1,5 +1,13 @@
 ---
 published: false
+layout: post
+excerpt: I wanted to invoke a function in an angular app but also wanted the depencies of the function (parameters) such as servies and factories to be injected automatically.
+modified: {}
+tags: 
+  - AngularJS
+  - $Injector
+  - JavaScript
+comments: true
 ---
 
 I wanted to invoke a function in an angular app but also wanted the depencies of the function (parameters) such as servies and factories to be injected automatically. 
