@@ -45,7 +45,7 @@ $injector.invoke(CustomFunction, this, { name: 'Raathi' });
 
 The third paramter of the `invoke` method is an object where you can specify your custom parameters. The `$injector` will go through the third object to see if a particular parameter is present. If its not present only, it will check the angular app for such injectable.
 
-Here is the [stackoverflow question I created](http://stackoverflow.com/questions/33216783/angular-js-resolve-dependencies-of-a-custom-function) to help this.
+Here is the [stackoverflow question I created](http://stackoverflow.com/questions/33216783/angular-js-resolve-dependencies-of-a-custom-function) to help with this issue.
 
 Happy Coding People!
 
