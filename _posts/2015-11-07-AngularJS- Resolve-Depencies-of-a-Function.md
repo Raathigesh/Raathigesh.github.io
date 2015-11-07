@@ -10,6 +10,7 @@ tags:
 comments: true
 ---
 
+
 I wanted to invoke a function in an angular app but also wanted the depencies of the function (parameters) such as servies and factories to be injected automatically. 
 
 {% highlight javascript %}
@@ -48,5 +49,3 @@ The third paramter of the `invoke` method is an object where you can specify you
 Here is the [stackoverflow question I created](http://stackoverflow.com/questions/33216783/angular-js-resolve-dependencies-of-a-custom-function) to help with this issue.
 
 Happy Coding People!
-
- 
