@@ -18,7 +18,7 @@ function CustomFunction(MyAngularService) {
 }
 {% endhighlight %}
 
-When I invoke the function, the service should be injected automatically and also I should be able to pass additional parameters which are not injectables. 
+When the function is invoked, the service should be injected automatically and also I should be able to pass additional parameters which are not injectables. 
 
 As it turns out, its really an easy task with the $injector service.
 
