@@ -23,4 +23,7 @@ I felt like it would be awesome if there is a playground where I can put a bunch
 # Powerd By ReactJs and Meteor 
 I have to admit I started this project so I could learn Meteor. But I really liked the way how this project turned out at the end. I got some feedback from the community as well ([Reddit](https://www.reddit.com/r/reactjs/comments/3ssd5l/semanticedit_semantic_ui_playground_built_with/), [Crater](https://crater.io/posts/3NKkkfFT4tZ8KSgSW/semantic-edit-a-playground-to-compose-semantic-ui-components)) which will help to drive the tool into a usefull one.
 
+- [Github Repository](https://github.com/Raathigesh/SemanticEdit)
+- [SemanticEdit App](http://semanticedit.meteor.com/)
+
 Happy Coding Guys!
