@@ -12,7 +12,6 @@ comments: true
 ---
 
 
-# Semantic Edit - A Semantic UI Playground
 I'm curretnly playing around with [Semantic UI](http://semantic-ui.com/) for a [ReactJs](https://facebook.github.io/react/) project. Semantic UI is a UI library like bootstrap but main focus of the libray as the name says is to provide a human redable markup and I think it does an excellent job with that goal.
 
 Another interesting aspect of Semantic UI is that it has a lot of compoents pre-built so we can easily get pretty sophiticated complex screens developed in very little amount of time.
