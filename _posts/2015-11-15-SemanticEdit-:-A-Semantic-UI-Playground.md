@@ -16,7 +16,7 @@ I'm curretnly playing around with [Semantic UI](http://semantic-ui.com/) for a [
 
 Another interesting aspect of Semantic UI is that it has a lot of compoents pre-built so we can easily get pretty sophiticated complex screens developed in very little amount of time.
 
-I felt like it would be awesome if there is a platgound where I can put a bunch of semantic components together and view them in realtime how well they fit. That's how I ended up creating [SemanticEdit](https://github.com/Raathigesh/SemanticEdit).
+I felt like it would be awesome if there is a playground where I can put a bunch of semantic components together and view them in realtime how well they fit. That's how I ended up creating [SemanticEdit](https://github.com/Raathigesh/SemanticEdit).
 
 **SemanticEdit** is an interactive Semantic UI playground where you can copy the markup of any semantic component and paste it in the editor and the live preview will render immediately. It's fun and productive. Give it a try and let me know what you think. Suggest me features to add. [I already have a bunch of enhancements.](https://github.com/Raathigesh/SemanticEdit/labels/enhancement) Add yours there too. We will talk. Have some time?, contribute as well :)
 
