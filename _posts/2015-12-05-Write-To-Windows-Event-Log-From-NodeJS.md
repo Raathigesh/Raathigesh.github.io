@@ -1,5 +1,15 @@
 ---
 published: false
+layout: post
+excerpt: There are some great logging framework in NodeJS which will allow you to log to various destinations. Winson in one of the good logging framework which can log to multiple transports.
+modified: {}
+tags: 
+  - NodeJS
+  - EventLog
+  - Windows
+  - Logging
+  - WindowsNode
+comments: true
 ---
 
 There are some great logging framework in NodeJS which will allow you to log to various destinations. [Winson](https://github.com/winstonjs/winston) in one of the good logging framework which can log to multiple transports.
