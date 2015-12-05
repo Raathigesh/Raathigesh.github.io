@@ -27,7 +27,7 @@ Other option I was attempting to do was to write a simple class library which wi
 ### node-windows Module - The Saviour
 After some googling, I found an amazing module called [node-windows](https://github.com/coreybutler/node-windows), which can write to Windows Event Log and it's not a native module so no need of compilation. 
 
-[Node windows](https://github.com/coreybutler/node-windows) not only has event logging functionality but it also has some other amazing windows related features. Check the out as well.
+[Node windows](https://github.com/coreybutler/node-windows) not only has event logging functionality but it also has some other amazing windows related features.
 
 
-Happy Noding Folks!
+Happy Coding Folks!
