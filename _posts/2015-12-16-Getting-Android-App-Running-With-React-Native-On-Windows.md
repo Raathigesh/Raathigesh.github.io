@@ -58,6 +58,7 @@ The steps I followed to resolve this issues.
 - Provide the address as `<YourIp>:8081`
 - Select `ReloadJS`
 
+
 > executing the command `adb reverse tcp:8081 tcp:8081` is another option people were suggesting. You could try this as well. You can locate the `adb` exe under `<SDKInstallationDirectory>\Android\android-sdk\platform-tools`.
 
 That should reload the content and your app should work.
