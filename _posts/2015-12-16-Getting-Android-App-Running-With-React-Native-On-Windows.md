@@ -49,10 +49,9 @@ react-native start
 When you open your app in the phone, you might see an error saying `Unable to download JS bundle`. This error means the emulator/phone can't communicate to the packager to download the content.
 
 The steps I followed to resolve this issues.
-
 - Connect the phone to same WIFI network that your computer is connected to
 - Get the IP of the machine using `ipconfig`
-- Shake the device to bring the menu in your phone 
+- Shake the phone to bring the menu
 - Select `Dev Settings`
 - Select `Debug server host for device`
 - Provide the address as `<YourIp>:8081`
