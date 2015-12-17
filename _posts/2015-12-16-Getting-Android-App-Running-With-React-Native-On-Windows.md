@@ -63,4 +63,4 @@ The steps I followed to resolve this issues.
 
 That should reload the content and your app should work.
 
-If you are still having the issue, try to navigate to `localhost:8081/index.android.js` in your computer and see weather you get any results back. If this call failes, check weather port 8081 is used by some other application. You could use [TCPView](https://technet.microsoft.com/en-us/sysinternals/tcpview.aspx) to investigate the ports.
+If you are still having the issue, try to navigate to `localhost:8081/index.android.js` in your computer and see weather you get any results back. If this call fails, check weather port 8081 is used by some other application. You could use [TCPView](https://technet.microsoft.com/en-us/sysinternals/tcpview.aspx) to investigate the ports.
