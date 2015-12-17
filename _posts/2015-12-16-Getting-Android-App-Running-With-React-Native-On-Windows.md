@@ -24,7 +24,7 @@ Make sure to select the required components when installing the SDK as indicated
 npm install -g react-native-cli
 {% endhighlight %}
 
-4. Create a new application by doind an Init as below
+4. Create a new application by performing an Init as below
 {% highlight javascript %}
 react-native init HelloRN
 {% endhighlight %}
