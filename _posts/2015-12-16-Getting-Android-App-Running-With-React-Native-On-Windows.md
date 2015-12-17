@@ -46,7 +46,7 @@ react-native start
 - If things goes well you should see your application in the emulator or the device.
 
 ### Fixing 'Unable to download JS bundle' error 
-When you open your app in the emulator/phone, you might see an error saying `Unable to download JS bundle`. This erro means the emulator/phone can't communicate to the packager to download the content.
+When you open your app in the phone, you might see an error saying `Unable to download JS bundle`. This error means the emulator/phone can't communicate to the packager to download the content.
 
 The steps I followed to resolve this issues.
 - Connect the phone to same WIFI network that your computer is connected to
