@@ -1,5 +1,12 @@
 ---
 published: true
+layout: post
+excerpt: "I managed to get a React Native (RN) hello world android app running in the android emulator on my windows machine and this post is going to describe some issues I faced and how solved those. So are you ready to get your hands dirty with some React Native (RN)?"
+modified: {}
+tags: 
+  - ReactNative
+  - Windows
+comments: true
 ---
 
 
