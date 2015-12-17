@@ -10,7 +10,7 @@ comments: true
 ---
 
 
-I managed to get a React Native (RN) hello world android app running in the android emulator on my windows machine and this post is going to describe some issues I faced and how solved those. So are you ready to get your hands dirty with some React Native (RN)?
+I managed to get a React Native (RN) hello world android app running from a windows machine and this post is going to describe some issues I faced and how to resolve them. So are you ready to get your hands dirty with some React Native (RN)?
 
 1. Download [Android SDK for Windows](http://developer.android.com/sdk/index.html#Other) and install it.
 2. Create a system variable called `ANDROID_HOME` and set the value to the SDK installation path. E.g: `C:\Users\UserName\AppData\Local\Android\android-sdk`. 
