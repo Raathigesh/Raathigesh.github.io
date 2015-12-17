@@ -36,7 +36,7 @@ react-native init HelloRN
 react-native run-android
 {% endhighlight %}
 
-7. In windows the packager won't start automatically. So we have to start manually. Open another command promt and navigate to your application directory and execute the following command.
+7. In windows the packager won't start automatically. So we have to start manually. Open another command prompt and navigate to your application directory and execute the following command.
 {% highlight javascript %}
 react-native start
 {% endhighlight %}
