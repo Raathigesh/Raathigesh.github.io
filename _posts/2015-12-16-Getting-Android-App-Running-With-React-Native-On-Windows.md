@@ -20,18 +20,26 @@ Make sure to select the required components when installing the SDK as indicated
 >Rapid Environemnt Editor makes handling environment variables a breeze in windows. Check out [Rapid Environment Editor](http://www.rapidee.com/en/about).
 
 3. Once you have things in place, install the RN cli globally
-> npm install -g react-native-cli
+{% highlight javascript %}
+npm install -g react-native-cli
+{% endhighlight %}
 
 4. Create a new application by doind an Init as below
-> react-native init HelloRN
+{% highlight javascript %}
+react-native init HelloRN
+{% endhighlight %}
 
 5. Make sure to keep your emulator running or the phone connected. (Enable USB debugging in the phone as well)
 
 6. Execute the following command from the application folder. This will try to build the project by fetching the dependencies. So be patient.
-> react-native run-android
+{% highlight javascript %}
+react-native run-android
+{% endhighlight %}
 
 7. In windows the packager won't start automatically. So we have to start manually. Open another command promt and navigate to your application directory and execute the following command.
-> react-native start
+{% highlight javascript %}
+react-native start
+{% endhighlight %}
 
 If you come accorss an error saying `ERROR Watcher took too long to load`, In your application directory open `\node_modules\react-native\packager\react-packager\src\FileWatcher\index.js` and increase the wait time to 50000 as `const MAX_WAIT_TIME = 50000;`
 
