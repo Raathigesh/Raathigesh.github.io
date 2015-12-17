@@ -41,7 +41,7 @@ react-native run-android
 react-native start
 {% endhighlight %}
 
- - If you come accorss an error saying `ERROR Watcher took too long to load` when executing `react-native start`, open `\node_modules\react-native\packager\react-packager\src\FileWatcher\index.js` in your application and increase the wait time to 50000 as `const MAX_WAIT_TIME = 50000;`
+ - If you come accorss an error saying `ERROR Watcher took too long to load` when executing `react-native start`, open **\node_modules\react-native\packager\react-packager\src\FileWatcher\index.js** in your application and increase the wait time to 50000 as `const MAX_WAIT_TIME = 50000;`
 
 - If things goes well you should see your application in the emulator or the device.
 
