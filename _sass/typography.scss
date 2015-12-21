@@ -40,8 +40,23 @@ blockquote {
   border-left: 5px solid $secondary;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
+h1 {
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+h2 {
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+h3 {
+	font-weight: 400;
+	line-height: 1.1;
+}
+
+h4, h5, h6 {
+	font-weight: 300;
 	line-height: 1.1;
 }
 
