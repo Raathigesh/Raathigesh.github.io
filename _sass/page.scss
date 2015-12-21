@@ -228,12 +228,14 @@ $button-size: 1.5rem;
 	}
 	.post{
 		@include container;
-		@include grid(12,12, none);
+		@include grid(12,10);
+		@include prefix(12,1);
+		@include suffix(12,1);
 		margin-bottom: 2em;
 		@media #{$small} {
-			@include grid(12,9);
-			@include prefix(12,1);
-			@include suffix(12,1);
+			@include grid(12,8);			
+			@include prefix(12,2);
+			@include suffix(12,2);
 		}
 		@media #{$x-large} {
 			@include grid(12,8);			
