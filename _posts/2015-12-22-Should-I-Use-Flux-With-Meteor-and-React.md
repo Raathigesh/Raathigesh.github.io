@@ -24,7 +24,7 @@ Out of all the flux implementations, the most popular and well praised implement
 
 > If you want to learn Redux, [start here](https://egghead.io/series/getting-started-with-redux). Free video tutoal by the creator, Dan Abramov him self. Very well explained.
 
-### Shold Meteor need flux to work with React?
+### Is flux doing any good in a Meteor app with React?
 The confustion I had weather to choose Flux or not with the Meteor apps was, because Meteor has some special abilities like server side method calls, client side collections and reactive variables and much more than a normal traditional JavaScript application which uses a tradional REST API to communicate to the server.
 
 ### Meteor and React without Flux - Not So Good
