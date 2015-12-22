@@ -13,6 +13,7 @@ tags:
 comments: true
 ---
 
+
 I'm a big fan of Atom Editor. In a [previous post](http://raathigesh.com/Code-Editors-I-Use/) I have discussed about the editors I use for day to day developement. 
 
 Atom is advertised as a hackable editor and It truly is. When you see a missing feature, you can very easily find a plugin for it. The plugins makes atom so great because you can customize the editor entirely for your needs. 
@@ -47,19 +48,3 @@ Here I'm going list all the plugins I find useful with Atom. Hope this helps you
 
 ### Typescript
 - [Atom Typescript](https://atom.io/packages/atom-typescript): Typescript support for atom. One of the best typescript developement experience you can get.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
