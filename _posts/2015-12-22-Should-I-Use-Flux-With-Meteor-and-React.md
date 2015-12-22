@@ -1,5 +1,14 @@
 ---
 published: false
+layout: post
+excerpt: "Since the day I started using MeteorJS with ReactJS I had this question unanwered, Should I Use Flux With Meteor and React?"
+modified: {}
+tags: 
+  - MeteorJS
+  - ReactJS
+  - Flux
+  - Redux
+comments: true
 ---
 
 Since the day I started using [MeteorJS](https://www.meteor.com/) with [ReactJS](https://facebook.github.io/react/) I had this question unanwered, Should I Use Flux With Meteor and React?
