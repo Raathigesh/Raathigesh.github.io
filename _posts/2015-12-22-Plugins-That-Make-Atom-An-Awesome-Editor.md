@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-excerpt: "Since the day I started using MeteorJS with ReactJS I had this question unanwered, Should I Use Flux With Meteor and React?"
+excerpt: "I'm a big fan of Atom Editor. In a previous post I have discussed about the editors I use for day to day developement. "
 modified: {}
 tags: 
   - Atom
@@ -12,6 +12,7 @@ tags:
   - Productivity
 comments: true
 ---
+
 
 
 I'm a big fan of Atom Editor. In a [previous post](http://raathigesh.com/Code-Editors-I-Use/) I have discussed about the editors I use for day to day developement. 
