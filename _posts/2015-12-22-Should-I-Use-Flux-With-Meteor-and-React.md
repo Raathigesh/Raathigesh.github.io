@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 excerpt: "Since the day I started using MeteorJS with ReactJS I had this question unanwered, Should I Use Flux With Meteor and React?"
 modified: {}
@@ -10,6 +10,7 @@ tags:
   - Redux
 comments: true
 ---
+
 
 Since the day I started using [MeteorJS](https://www.meteor.com/) with [ReactJS](https://facebook.github.io/react/) I had this question unanwered, Should I Use Flux With Meteor and React?
 
@@ -35,7 +36,3 @@ This is the first time I started using Redux in a production app and I felt the 
 Since Redux is also bit complicated, [this](http://marmelab.com/blog/2015/11/27/meteor-webpack-react-redux.html) post helped me vastly to integrate redux with Meteor and the accompanied repo [https://github.com/djhi/my-nutrition](https://github.com/djhi/my-nutrition) has a production grade application fully implemented. Checkout the repo and go through it slowly and you wont regret it.
 
 > The final take away from this post is, Even though Meteor is so powerfull and allows to do alot of magic, If you application is complex its very easy to get out of hand. And when you add React, a component based library to the formula, there is a higher change of maintainability issues being introduced in the long run. So its very recommended to use a flux library like Redux to make the life easier with Meteor.
-
-
-
-
