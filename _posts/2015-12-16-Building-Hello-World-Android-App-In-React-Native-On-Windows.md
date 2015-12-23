@@ -68,5 +68,5 @@ If you are still having the issue, try to navigate to `localhost:8081/index.andr
 
 If you keep getting the error message as below even through your packager is running as expected, Try to open the url `http://localhost:8081/index.android.bundle?platform=android&dev=true` in your browser and see weather you are getting any error in the response. If you do,try fixing it and then reload your app.
 
-![ReactNativeError.png]({{site.baseurl}}/_posts/ReactNativeError.png)
+![ReactNativeError.png](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/ReactNativeError.png)
 
