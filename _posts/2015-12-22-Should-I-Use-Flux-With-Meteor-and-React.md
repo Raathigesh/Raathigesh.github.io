@@ -13,6 +13,7 @@ comments: true
 
 
 
+
 Since the day I started using [MeteorJS](https://www.meteor.com/) with [ReactJS](https://facebook.github.io/react/) I had this question unanswered, Should I Use Flux With Meteor and React?
 
 ### What is Flux?
@@ -26,7 +27,7 @@ Out of all the flux implementations, the most popular and well praised implement
 > If you want to learn Redux, [start here](https://egghead.io/series/getting-started-with-redux). Free video tutorials by the creator, Dan Abramov himself. Very well explained.
 
 ### Is flux doing any good in a Meteor app with React?
-The confution I had weather to choose Flux or not with the Meteor app was, because Meteor has some special abilities like server side method calls, client side collections and reactive variables and much more than a normal traditional JavaScript application which uses a tradional REST API to communicate to the server.
+The confusion I had weather to choose Flux or not with the Meteor app was, because Meteor has some special abilities like server side method calls, client side collections and reactive variables and much more than a normal traditional JavaScript application which uses a tradional REST API to communicate to the server.
 
 ### Meteor and React without Flux - Not So Good
 The application I was working on was not a very simple but also not very complex. An app with a medium complexity. So I started off without flux. Components subscribes to datasources through `ReactMeteorData` mixin which keeps the components up-to-date. Compoents also can call meteor methods themselves. Things didn't look so good with this approach. When the application had multiple subscriptions, things felt bit complex to understand and manage.
