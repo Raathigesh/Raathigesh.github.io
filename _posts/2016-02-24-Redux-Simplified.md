@@ -17,7 +17,6 @@ But why? For example when you build web applications, multiple components are in
 
 ![SingleState.PNG]({{site.baseurl}}/_posts/SingleState.PNG)
 
-
 ## Actions
 User interface can trigger actions. When an action is triggered, it could change the global application state.
 
