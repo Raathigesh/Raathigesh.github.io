@@ -49,7 +49,14 @@ So far we have a global state and actions with the information on how to change 
 
 Despite the fancy name, Reducer is just another function with a switch case. 
 
-But the very important part is, a reducer is responsible for managing a branch of your global state.
+But the very important part is, a reducer is responsible for managing a branch of your global state. If we go back to our previous global state, we need two reducers to manage this state as follows.
+
+- App Reducer - To manage the state.app branch or sub state
+- User Reducer - To manage the state.user branch or sub state
+
+![SingleState.PNG]({{site.baseurl}}/_posts/SingleState.PNG)
+
+
 
 
 
