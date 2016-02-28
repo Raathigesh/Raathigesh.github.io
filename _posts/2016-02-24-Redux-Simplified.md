@@ -44,7 +44,7 @@ function SetAuthorization() {
 }
 {% endhighlight %}
 
-## Reducer
+## Reducers
 So far we have a global state and actions with the information on how to change the state. But who is going to change the state? Reducer is. 
 
 Despite the fancy name, Reducer is just another function with a switch case. 
