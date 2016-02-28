@@ -56,6 +56,32 @@ But the very important part is, a reducer is responsible for managing a branch o
 
 ![SingleState.PNG]({{site.baseurl}}/_posts/SingleState.PNG)
 
+**Each reducer will have it's initial state.** This initial state is the part of the global state or sub state they are reponsible of managing.
+
+So how a reducer would look like ? Let's look at the App Reducer which can handle the 'SET_AUTHORIZE' action.
+
+{% highlight javascript %}
+const initialStateOfAppReducer = {
+	name: 'My Awesome Application',
+    version: '1.0',
+    authorized: false
+}
+
+export default function appReducer(state = initialStateOfAppReducer, action) {
+  switch (action.type) {
+    case 'SET_AUTHORIZE':
+      return Object.assign({}, state, { authorized: action.data });
+    default:
+      return state;
+  }
+}
+{% endhighlight %}
+
+You might ask what's `Object.assign({}, state, { authorized: action.data });` is all about. We can't we just do `state.authorized = action.data`?
+
+Well we can't because doing `state.authorized = action.data`? is directly mutating the state which is not recommended. What we should be doing is returning a new state it self which is what `Object.assign({}, state, { authorized: action.data });` does.
+
+
 
 
 
