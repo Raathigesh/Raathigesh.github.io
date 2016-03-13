@@ -107,13 +107,13 @@ Well we can't because doing `state.authorized = action.data`? is directly mutati
 
 ## Container Component
 
-### React Dump component
+#### React Dump component
 A dump react component doesn't really care about from where its getting its data from. A dump component accepts everthing through props.
 
-### React Smart Component
+#### React Smart Component
 A container component is also known as a smart component. A container component provides the information needed for the dump components.
 
-### Redux Container Component
+#### Redux Container Component
 A redux container component connects the dump components with actions and the central state. To do this redux has a 'connect' method. This connection method accepts two function which tells how to map the actions and state to the dump component.
 {% highlight javascript %}
 import { bindActionCreators } from 'redux';
