@@ -105,5 +105,30 @@ A dump react component doesn't really care about from where its getting its data
 ### React Smart Component
 A container component is also known as a smart component. A container component provides the information needed for the dump components.
 
+### Redux Container Component
+A redux container component connects the dump components with actions and the central state. To do this redux has a 'connect' method. This connection method accepts two function which tells how to map the actions and state to the dump component.
+{% highlight javascript %}
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import Home from '../components/Home'; // Dump home component
+import { SetAuthorization } from '../actions/actions';
+
+function mapStateToProps(state) {
+  return {
+    name: state.app.name
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({
+    SetAuthorization: SetAuthorization
+  }, dispatch);
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
+{% endhighlight %}
+
+# In Summary
+Redux is an opinionated flux implementation and widely adopted by the react community. Redux helps to develop easily maintainable large scale react applications. [Redux video tutorials created by the master mind behind redux, Dan Abramov, is a great place to start.](https://egghead.io/series/getting-started-with-redux)
 
 
