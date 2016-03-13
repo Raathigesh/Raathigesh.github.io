@@ -19,7 +19,7 @@ A typical flux implementation has three components.
 - Dispatcher : A dispatcher is a component which dispatches the actions to the store.
 - Store : Store holds the state. Store handles various actions and changes the state based on handling these actions. In typical flux implementation we could have multiple stores in an application.
 
-![FluxImplementation.PNG]({{site.baseurl}}/_posts/FluxImplementation.PNG)
+![FluxImplementation.PNG](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/FluxImplementation.PNG)
 
 # Redux
 Redux is a flux library which helpes to manage application state in JavaScript applications. Even though its mostly used with ReactJS, it's a framework agnostic solution for JavaScript state management. This post aims to introduce redux concepts with a very minimalistic example.
@@ -38,9 +38,9 @@ Redux maintains the application state in a single state object. This state objec
 
 But why? For example when you build web applications, multiple components are interested in a piece of information. For example weather the user is authorized or not. So a global state is the best way to store such information so each individial UI components can access.
 
-- Redux maintains state in a single atom (Single object)
+> Redux maintains state in a single atom (Single object)
 
-![SingleState.PNG]({{site.baseurl}}/_posts/SingleState.PNG)
+![SingleState.PNG](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG)
 
 ## Actions
 User interface can trigger actions. When an action is triggered, it could change the application state.
@@ -78,7 +78,7 @@ But the very important part is, a reducer is responsible for managing a branch o
 - App Reducer - To manage the state.app branch or sub state
 - User Reducer - To manage the state.user branch or sub state
 
-![SingleState.PNG]({{site.baseurl}}/_posts/SingleState.PNG)
+![SingleState.PNG](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG)
 
 **Each reducer will have it's initial state.** This initial state is the part of the global state or sub state they are reponsible of managing.
 
