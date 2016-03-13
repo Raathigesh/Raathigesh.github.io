@@ -11,6 +11,8 @@ A typical flux implementation has three components.
 - Dispatcher : A dispatcher is a component which dispatches the actions to the store.
 - Store : Store holds the state. Store handles various actions and changes the state based on handling these actions. In typical flux implementation we could have multiple stores in an application.
 
+![FluxImplementation.PNG]({{site.baseurl}}/_posts/FluxImplementation.PNG)
+
 # Redux
 Redux is a flux library which helpes to manage application state in JavaScript applications. Even though its mostly used with ReactJS, it's a framework agnostic solution for JavaScript state management. This post aims to introduce redux concepts with a very minimalistic example.
 
@@ -19,17 +21,22 @@ Three fundamental parts of Redux
 2. Actions
 3. Reducers 
 
+- Redux uses only a single store
+- Redux doesn't have a dispatcher component
+
 ## The State
 Redux maintains the application state in a single state object. This state object could store information related to the application such as who is the current logged in user or it could store information related to the UI state such as a state of a UI element. For example an expandable element is expanded or collapsed.
 
 But why? For example when you build web applications, multiple components are interested in a piece of information. For example weather the user is authorized or not. So a global state is the best way to store such information so each individial UI components can access.
 
+- Redux maintains state in a single atom (Single object)
+
 ![SingleState.PNG]({{site.baseurl}}/_posts/SingleState.PNG)
 
 ## Actions
-User interface can trigger actions. When an action is triggered, it could change the global application state.
+User interface can trigger actions. When an action is triggered, it could change the application state.
 
-An action have two properties, the type of the action and the data required to change the state.
+An action have two properties, the type of the action and the data required to change the state. Type of the action is a string value. But this value should be unique amount all the actions. Two actions can't have the same name.
 
 An Example redux action. The type of the below action is 'SET_AUTHORIZE' and the data is 'true'.
 
@@ -53,7 +60,7 @@ function SetAuthorization() {
 {% endhighlight %}
 
 ## Reducers
-So far we have a global state and actions with the information on how to change the state. But who is going to change the state? Reducer is. 
+So far we have a state and actions with the information on how to change the state. But who is going to change the state? Reducer is. 
 
 Despite the fancy name, Reducer is just another function with a switch case. 
 
