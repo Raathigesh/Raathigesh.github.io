@@ -11,7 +11,7 @@ comments: true
 ---
 
 
-# What the flux is flux?
+## What the flux is flux?
 [Flux](https://facebook.github.io/flux/) is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates a uni-directional data flow. 
 
 A typical flux implementation has three components. 
@@ -21,7 +21,7 @@ A typical flux implementation has three components.
 
 ![FluxImplementation.PNG](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/FluxImplementation.PNG)
 
-# Redux
+### Redux
 Redux is a flux library which helpes to manage application state in JavaScript applications. Even though its mostly used with ReactJS, it's a framework agnostic solution for JavaScript state management. This post aims to introduce redux concepts with a very minimalistic example.
 
 Three fundamental parts of Redux
@@ -33,7 +33,7 @@ Three fundamental parts of Redux
 
 > Redux doesn't have a dispatcher component
 
-## The State
+#### The State
 Redux maintains the application state in a single state object. This state object could store information related to the application such as who is the current logged in user or it could store information related to the UI state such as a state of a UI element. For example an expandable element is expanded or collapsed.
 
 But why? For example when you build web applications, multiple components are interested in a piece of information. For example weather the user is authorized or not. So a global state is the best way to store such information so each individial UI components can access.
@@ -42,7 +42,7 @@ But why? For example when you build web applications, multiple components are in
 
 ![SingleState.PNG](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG)
 
-## Actions
+#### Actions
 User interface can trigger actions. When an action is triggered, it could change the application state.
 
 An action have two properties, the type of the action and the data required to change the state. Type of the action is a string value. But this value should be unique amount all the actions. Two actions can't have the same name.
@@ -56,7 +56,7 @@ An Example redux action. The type of the below action is 'SET_AUTHORIZE' and the
 }
 {% endhighlight %}
 
-### Action Creator
+##### Action Creator
 Action Creator is a place an action is created. Action creator is simply a function which returns an action object. SetAuthorization() is an action creator which creates the 'SET_AUTHORIZE' action.
 
 {% highlight javascript %}
@@ -68,7 +68,7 @@ function SetAuthorization() {
 }
 {% endhighlight %}
 
-## Reducers
+#### Reducers
 So far we have a state and actions with the information on how to change the state. But who is going to change the state? Reducer is. 
 
 Despite the fancy name, Reducer is just another function with a switch case. 
@@ -105,15 +105,15 @@ You might ask what's `Object.assign({}, state, { authorized: action.data });` is
 
 Well we can't because doing `state.authorized = action.data`? is directly mutating the state which is not recommended. What we should be doing is returning a new state it self which is what `Object.assign({}, state, { authorized: action.data });` does.
 
-## Container Component
+#### Container Component
 
-#### React Dump component
+##### React Dump component
 A dump react component doesn't really care about from where its getting its data from. A dump component accepts everthing through props.
 
-#### React Smart Component
+##### React Smart Component
 A container component is also known as a smart component. A container component provides the information needed for the dump components.
 
-#### Redux Container Component
+##### Redux Container Component
 A redux container component connects the dump components with actions and the central state. To do this redux has a 'connect' method. This connection method accepts two function which tells how to map the actions and state to the dump component.
 {% highlight javascript %}
 import { bindActionCreators } from 'redux';
@@ -136,7 +136,7 @@ function mapDispatchToProps(dispatch) {
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
 {% endhighlight %}
 
-# In Summary
+### In Summary
 Redux is an opinionated flux implementation and widely adopted by the react community. Redux helps to develop easily maintainable large scale react applications. [Redux video tutorials created by the master mind behind redux, Dan Abramov, is a great place to start.](https://egghead.io/series/getting-started-with-redux)
 
 
