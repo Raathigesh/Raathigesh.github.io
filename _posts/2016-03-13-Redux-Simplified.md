@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 excerpt: "Flux is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates a uni-directional data flow."
 modified: {}
@@ -9,6 +9,7 @@ tags:
   - Flux
 comments: true
 ---
+
 
 
 ## What the flux is flux?
@@ -148,5 +149,3 @@ export default connect(mapStateToProps, mapDispatchToProps)(Home);
 
 ### In Summary
 Redux is an opinionated flux implementation and widely adopted by the react community. Redux helps to develop easily maintainable large scale react applications. [Redux video tutorials created by the master mind behind redux, Dan Abramov, is a great place to start.](https://egghead.io/series/getting-started-with-redux)
-
-
