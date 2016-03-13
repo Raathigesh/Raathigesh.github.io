@@ -50,10 +50,10 @@ An action have two properties, the type of the action and the data required to c
 An Example redux action. The type of the below action is 'SET_AUTHORIZE' and the data is 'true'.
 
 {% highlight javascript %}
- {
- 	type: 'SET_AUTHORIZE',
-    data: true
- }
+{
+	type: 'SET_AUTHORIZE',
+ 	data: true
+}
 {% endhighlight %}
 
 ### Action Creator
