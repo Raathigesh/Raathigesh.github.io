@@ -21,8 +21,9 @@ Three fundamental parts of Redux
 2. Actions
 3. Reducers 
 
-- Redux uses only a single store
-- Redux doesn't have a dispatcher component
+> Redux uses only a single store
+
+> Redux doesn't have a dispatcher component
 
 ## The State
 Redux maintains the application state in a single state object. This state object could store information related to the application such as who is the current logged in user or it could store information related to the UI state such as a state of a UI element. For example an expandable element is expanded or collapsed.
@@ -95,3 +96,14 @@ export default function appReducer(state = initialStateOfAppReducer, action) {
 You might ask what's `Object.assign({}, state, { authorized: action.data });` is all about. We can't we just do `state.authorized = action.data`?
 
 Well we can't because doing `state.authorized = action.data`? is directly mutating the state which is not recommended. What we should be doing is returning a new state it self which is what `Object.assign({}, state, { authorized: action.data });` does.
+
+## Container Component
+
+### React Dump component
+A dump react component doesn't really care about from where its getting its data from. A dump component accepts everthing through props.
+
+### React Smart Component
+A container component is also known as a smart component. A container component provides the information needed for the dump components.
+
+
+
