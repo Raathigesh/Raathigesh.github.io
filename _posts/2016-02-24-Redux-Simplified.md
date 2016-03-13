@@ -1,5 +1,13 @@
 ---
 published: false
+layout: post
+excerpt: "Flux is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates a uni-directional data flow."
+modified: {}
+tags: 
+  - ReactJS
+  - Redux
+  - Flux
+comments: true
 ---
 
 
