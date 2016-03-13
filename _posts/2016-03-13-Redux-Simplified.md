@@ -62,9 +62,9 @@ Action Creator is a place an action is created. Action creator is simply a funct
 {% highlight javascript %}
 function SetAuthorization() {
 	return  {
-      type: 'SET_AUTHORIZE',
-      data: true
- 	}
+		type: 'SET_AUTHORIZE',
+		data: true
+	}
 }
 {% endhighlight %}
 
@@ -87,8 +87,8 @@ So how a reducer would look like ? Let's look at the App Reducer which can handl
 {% highlight javascript %}
 const initialStateOfAppReducer = {
 	name: 'My Awesome Application',
-    version: '1.0',
-    authorized: false
+	version: '1.0',
+	authorized: false
 }
 
 export default function appReducer(state = initialStateOfAppReducer, action) {
