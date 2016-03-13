@@ -44,7 +44,10 @@ But why? For example when you build web applications, multiple components are in
 
 > Redux maintains state in a single atom (Single object)
 
-![SingleState.PNG](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG)
+<figure>
+	<a href="https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG"><img src="https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG"></a>
+	<figcaption>Sample redux state, a single object.</figcaption>
+</figure>
 
 #### Actions
 User interface can trigger actions. When an action is triggered, it could change the application state.
