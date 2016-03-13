@@ -85,7 +85,10 @@ But the very important part is, a reducer is responsible for managing a branch o
 - App Reducer - To manage the state.app branch or sub state
 - User Reducer - To manage the state.user branch or sub state
 
-![SingleState.PNG](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG)
+<figure>
+	<a href="https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG"><img src="https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/SingleState.PNG"></a>
+	<figcaption>Sample redux state, a single object.</figcaption>
+</figure>
 
 **Each reducer will have it's initial state.** This initial state is the part of the global state or sub state they are reponsible of managing.
 
