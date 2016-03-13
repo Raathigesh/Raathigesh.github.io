@@ -3,6 +3,15 @@ published: false
 ---
 
 
+#What the flux is flux?
+[Flux](https://facebook.github.io/flux/) is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates a uni-directional data flow. 
+
+A typical flux implementation has three components. 
+- Action : 'Action' represents a certain action that the application can perform. For example a bookmark applicaion can allow users to 'Add a boomark'. So 'Add a bookmark' is an action.
+- Dispatcher : A dispatcher is a component which dispatches the actions to the store.
+- Store : Store holds the state. Store handles various actions and changes the state based on handling these actions. In typical flux implementation we could have multiple stores in an application.
+
+# Redux
 Redux is a flux library which helpes to manage application state in JavaScript applications. Even though its mostly used with ReactJS, it's a framework agnostic solution for JavaScript state management. This post aims to introduce redux concepts with a very minimalistic example.
 
 Three fundamental parts of Redux
@@ -79,10 +88,3 @@ export default function appReducer(state = initialStateOfAppReducer, action) {
 You might ask what's `Object.assign({}, state, { authorized: action.data });` is all about. We can't we just do `state.authorized = action.data`?
 
 Well we can't because doing `state.authorized = action.data`? is directly mutating the state which is not recommended. What we should be doing is returning a new state it self which is what `Object.assign({}, state, { authorized: action.data });` does.
-
-
-
-
-
-
-
