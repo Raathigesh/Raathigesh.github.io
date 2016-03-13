@@ -15,9 +15,9 @@ comments: true
 [Flux](https://facebook.github.io/flux/) is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates a uni-directional data flow. 
 
 A typical flux implementation has three components. 
-- Action : 'Action' represents a certain action that the application can perform. For example a bookmark applicaion can allow users to 'Add a boomark'. So 'Add a bookmark' is an action.
-- Dispatcher : A dispatcher is a component which dispatches the actions to the store.
-- Store : Store holds the state. Store handles various actions and changes the state based on handling these actions. In typical flux implementation we could have multiple stores in an application.
+1. Action : 'Action' represents a certain action that the application can perform. For example a bookmark applicaion can allow users to 'Add a boomark'. So 'Add a bookmark' is an action.
+2. Dispatcher : A dispatcher is a component which dispatches the actions to the store.
+3. Store : Store holds the state. Store handles various actions and changes the state based on handling these actions. In typical flux implementation we could have multiple stores in an application.
 
 ![FluxImplementation.PNG](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/FluxImplementation.PNG)
 
