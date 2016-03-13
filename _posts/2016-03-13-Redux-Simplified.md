@@ -11,7 +11,7 @@ comments: true
 ---
 
 
-#What the flux is flux?
+# What the flux is flux?
 [Flux](https://facebook.github.io/flux/) is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates a uni-directional data flow. 
 
 A typical flux implementation has three components. 
