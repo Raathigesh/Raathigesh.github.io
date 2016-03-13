@@ -28,6 +28,7 @@ A typical flux implementation has three components.
 Redux is a flux library which helpes to manage application state in JavaScript applications. Even though its mostly used with ReactJS, it's a framework agnostic solution for JavaScript state management. This post aims to introduce redux concepts with a very minimalistic example.
 
 Three fundamental parts of Redux
+
 1. The State 
 2. Actions
 3. Reducers 
