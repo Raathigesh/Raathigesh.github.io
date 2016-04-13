@@ -11,10 +11,6 @@ tags:
 comments: true
 ---
 
-
-
-
-
 Since the day I started using [MeteorJS](https://www.meteor.com/) with [ReactJS](https://facebook.github.io/react/) I had this question unanswered, Should I Use Flux With Meteor and React?
 
 ### What is Flux?
