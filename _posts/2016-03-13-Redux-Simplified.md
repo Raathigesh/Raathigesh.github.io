@@ -12,8 +12,9 @@ comments: true
 
 
 
+
 ## What the flux is flux?
-[Flux](https://facebook.github.io/flux/) is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates a uni-directional data flow. 
+[Flux](https://facebook.github.io/flux/) is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates an uni-directional data flow. 
 
 A typical flux implementation has three components.
 
@@ -41,7 +42,7 @@ Three fundamental parts of Redux
 #### The State
 Redux maintains the application state in a single state object. This state object could store information related to the application such as who is the current logged in user or it could store information related to the UI state such as a state of a UI element. For example an expandable element is expanded or collapsed.
 
-But why? For example when you build web applications, multiple components are interested in a piece of information. For example weather the user is authorized or not. So a global state is the best way to store such information so each individial UI components can access.
+But why? For example when you build web applications, multiple components are interested in a piece of information. For example weather the user is authorized or not. So a global state is an ideal way to store such information so each individial UI components can access.
 
 > Redux maintains state in a single atom (Single object)
 
@@ -53,7 +54,7 @@ But why? For example when you build web applications, multiple components are in
 #### Actions
 User interface can trigger actions. When an action is triggered, it could change the application state.
 
-An action have two properties, the type of the action and the data required to change the state. Type of the action is a string value. But this value should be unique amount all the actions. Two actions can't have the same name.
+An action in Redux have two properties, the type of the action and the data required to change the state. Type of the action is a string value. But this value should be unique amount all the actions. Two actions can't have the same type.
 
 An Example redux action. The type of the below action is 'SET_AUTHORIZE' and the data is 'true'.
 
