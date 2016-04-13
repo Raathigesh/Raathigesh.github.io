@@ -149,7 +149,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Home);
 {% endhighlight %}
 
 ### In Summary
-Redux is an opinionated flux implementation and widely adopted by the react community. Redux helps to develop easily maintainable large scale react applications. [Redux video tutorials created by the master mastermind behind redux, Dan Abramov, is a great place to start.](https://egghead.io/series/getting-started-with-redux).
+Redux is an opinionated flux implementation and widely adopted by the react community. Redux helps to develop easily maintainable large scale react applications. [Redux video tutorials created by the master mastermind behind redux, Dan Abramov, is a great place to start.](https://egghead.io/series/getting-started-with-redux)
 
 ### Repository With Sample
 You could also check out this [Github repository](https://github.com/Raathigesh/CodeLib/tree/master/ReduxSimplified) which has a very minimal React/Redux sample.
