@@ -54,7 +54,7 @@ But why? For example, when you build web applications, multiple components are i
 #### Actions
 User interface can trigger actions. When an action is triggered, it could change the application state.
 
-An action in Redux has two properties, the type of the action and the data required to change the state. Type of the action is a string value. But this value should be unique amount all the actions. Two actions can't have the same type.
+An action in Redux has two properties, the type of the action and the data required to change the state. Type of the action is a string value. But this value should be unique among all the actions. Two actions can't have the same type.
 
 An Example redux action. The type of the below action is 'SET_AUTHORIZE' and the data is 'true'.
 
