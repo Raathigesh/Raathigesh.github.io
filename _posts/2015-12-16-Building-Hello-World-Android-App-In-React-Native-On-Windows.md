@@ -10,6 +10,7 @@ comments: true
 ---
 
 
+
 I managed to get a React Native (RN) hello world android app running from a windows machine and this post is going to describe some issues I faced and how to resolve them. So are you ready to get your hands dirty with some React Native (RN)?
 
 - Download [Android SDK for Windows](http://developer.android.com/sdk/index.html#Other) and install it.
@@ -64,3 +65,8 @@ The steps I followed to resolve this issues.
 That should reload the content and your app should work.
 
 If you are still having the issue, try to navigate to `localhost:8081/index.android.js` in your computer and see weather you get any results back. If this call fails, check weather port 8081 is used by some other application. You could use [TCPView](https://technet.microsoft.com/en-us/sysinternals/tcpview.aspx) to investigate the ports.
+
+If you keep getting the error message as below even though your packager is running as expected, Try to open the url `http://localhost:8081/index.android.bundle?platform=android&dev=true` in your browser and see weather you are getting any error in the response. If you do, try fixing it and then reload your app.
+
+![ReactNativeError.png](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/ReactNativeError.png)
+
