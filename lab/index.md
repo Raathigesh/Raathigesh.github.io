@@ -1,16 +1,16 @@
 ---
 layout: page
-title: 
+title:
 tags: [Experiments]
 modified: 2014-10-19
 comments: false
 image:
-  feature: 
-  creditlink: 
+  feature:
+  creditlink:
 ---
 
 
-##1 - Audio Visualizer Using Web Audio API & Three.Js##
+## 1 - Audio Visualizer Using Web Audio API & Three.Js
 <figure>
 	<a href="http://raathigesh.com/images/Lab/1%20Audio%20Visualizer.png"><img src="http://raathigesh.com/images/Lab/1%20Audio%20Visualizer.png"></a>
 </figure>

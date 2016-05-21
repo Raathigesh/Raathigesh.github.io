@@ -1,16 +1,16 @@
 ---
 layout: page
 title: Tools
-tags: 
+tags:
   - Tools
 modified: "6-8-2014"
 comments: false
-image: 
+image:
   feature: Tools.jpg
 published: true
 ---
 
-###Visual Studio Extensions
+### Visual Studio Extensions
 **[Resharper : ](http://www.jetbrains.com/resharper/)** Excellent plugin for visual studio which makes you super productive.
 {: .notice}
 
@@ -20,7 +20,7 @@ published: true
 **[VS Command Extension : ](http://vscommands.squaredinfinity.com/)** Adds some bells and whistles to visual studio. Specially the "Attach" button which attaches to the appropriate process to start debugging is a killer feature.
 {: .notice}
 
-###Text Editors
+### Text Editors
 **[Sublime : ](http://www.sublimetext.com/)** I started using Sublime recently and I'm already loving it. Nothing can come near its performance. Simply awesome!
 {: .notice}
 
@@ -30,7 +30,7 @@ published: true
 **[Brackets : ](http://brackets.io/?lang=en)** Another text editor / IDE built with web technologies by Adobe.
 {: .notice}
 
-###Utilities
+### Utilities
 **[Cmder : ](http://bliker.github.io/cmder/)** Let's face it that windows command prompt sucks. Install this beautiful console emulator today and live happily ever after.
 {: .notice}
 
@@ -55,24 +55,24 @@ published: true
 **[ILSpy : ](http://ilspy.net/)** Free and portable decompiler.
 {: .notice}
 
-###Design
+### Design
 **[Metro Icons : ](http://www.syncfusion.com/downloads/metrostudio)** If you are a fan of flat design and you need some cool looking flat icons, Metro studio is there just for that.
 {: .notice}
 
-###Productivity
+### Productivity
 **[Fences : ](http://www.stardock.com/products/fences/)** Organize your desktop icons into separate compartments.
 {: .notice}
 
 **[Wox Launcher : ](https://www.getwox.com/)** A minimal launcher. Try and see your self.
 {: .notice}
 
-###Music Players
+### Music Players
 **[Music Bee : ](http://getmusicbee.com/)** Fast, Leight weight, Theme support, Great set of features! Just install it.
 {: .notice}
 
 **[Media Monkey : ](http://www.mediamonkey.com/)** Similar to Music Bee but bit heavy. I switched to Music Bee from Media Money. But still a great player.
 {: .notice}
 
-###Management
-**[Adobe Digital Editions : ](http://www.adobe.com/solutions/ebook/digital-editions.html)** Collect all your ebooks under one tool and manage it like a pro. 
+### Management
+**[Adobe Digital Editions : ](http://www.adobe.com/solutions/ebook/digital-editions.html)** Collect all your ebooks under one tool and manage it like a pro.
 {: .notice}
