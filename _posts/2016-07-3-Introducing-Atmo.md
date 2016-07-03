@@ -9,8 +9,7 @@ tags:
 Most of the web projects are backed by a web server serving the required data through various technologies such as HTTP based Rest APIs, Socket server for real-time communication, Proxy endpoints to make cross origin communication easy, GraphQL endpoints which provides the luxury for the applications to say what data they really need and many more.
 
 When you start building your front-end, There could be situation a where the server that supposed to provide you data is not ready yet. In such situation, a mock server which could provide you fake data would be a great advantage.
-Json-server is an awesome tool to build mock REST APIs. But certain use cases requires more than just a REST API.
-Introducing Atmo.
+
 
 [Json-server](https://github.com/typicode/json-server) is an awesome tool to build mock REST APIs. But certain use cases requires more than just a REST API.
 
