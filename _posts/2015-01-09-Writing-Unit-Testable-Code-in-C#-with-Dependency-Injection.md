@@ -1,18 +1,17 @@
 ---
-layout: post
-title: Writing Unit Testable Code in .Net with Dependency Injection
-excerpt: "The idea of test driven development is to drive the development through unit tests. When ever we attempt to write a unit of code or a method we follow the following steps"
-modified: 2015-01-06
-tags: [.Net]
-comments: true
+title:  "Writing Unit Testable Code in C# with Dependency Injection"
+categories:
+  - DotNet
+tags:
+  - UnitTesting
 ---
 
 ##Hello Test Driven Development##
 
 The idea of test driven development is to drive the development through unit tests. When ever we attempt to write a unit of code or a method we follow the following steps.
 
-- First write a unit test case for the method. This test case is going to fail at first because we don't have our actual method implemented yet. Can't even compile the code sometimes. 
-- Write the actual method with the minimum code required to make the test case pass. 
+- First write a unit test case for the method. This test case is going to fail at first because we don't have our actual method implemented yet. Can't even compile the code sometimes.
+- Write the actual method with the minimum code required to make the test case pass.
 - Refactor the method while keeping the test passing.
 
 Test driven development also helps improve the productivity because while writing a particular method, you can isolate and test a particular method, rather than debugging the entire application. If it's a web application, the time to activate the entire application and debug a particular part of code is waste of time.
@@ -29,13 +28,13 @@ Let's explore by example. Let say we have an order class as follows and we want 
 public class Order{
     public int OrderId {get; set;}
     public Type OrderType {get; set;}
-    
+
     private DbConnection con;
-    
+
     public Order(){
       con = new DbConnection();
     }
-    
+
     public bool SaveOrder(){
          bool result;
         if(OrderType == Type.Rush)
@@ -46,7 +45,7 @@ public class Order{
         {
             result = con.SaveOrder(OrderId);
         }
-        
+
         return result;
     }
 }
@@ -58,9 +57,9 @@ We can write a test like following but is this truly a unit test. Every time we 
 public void OrderTest(){
     Order testOrder = new Order();
     testOrder.OrderType = Type.Rush;
-    
+
     var result= testOrder.SaveOrder();
-    
+
     Assert.Equal(true, result);
 }
 {% endhighlight %}
@@ -81,7 +80,7 @@ public Class DbConnection : IPersistanceConnection{
     public void SaveRushOrder(int OrderId){
         //Actual persistance implementation goes here
     }
-    
+
     public void SaveOrder(int OrderId){
         //Actual persistance implementation goes here
     }
@@ -90,13 +89,13 @@ public Class DbConnection : IPersistanceConnection{
 public class Order{
     public int OrderId {get; set;}
     public Type OrderType {get; set;}
-    
+
     private IPersistanceConnection con;
-    
+
     public Order(IPersistanceConnection connection){
       con = connection;
     }
-    
+
     public bool SaveOrder(){
          bool result;
         if(OrderType == Type.Rush)
@@ -107,7 +106,7 @@ public class Order{
         {
             result = con.SaveOrder(OrderId);
         }
-        
+
         return result;
     }
 }
@@ -124,7 +123,7 @@ public Class FakeConnection : IPersistanceConnection{
     public void SaveRushOrder(int OrderId){
         //Fake implementation goes here
     }
-    
+
     public void SaveOrder(int OrderId){
         //Fake implementation goes here
     }
@@ -132,12 +131,12 @@ public Class FakeConnection : IPersistanceConnection{
 
 public void OrderTest(){
     var fakeConnection = new FakeConnection();
-    
+
     Order testOrder = new Order(fakeConnection);
     testOrder.OrderType = Type.Rush;
-    
+
     var result= testOrder.SaveOrder();
-    
+
     Assert.Equal(true, result);
 }
 {% endhighlight %}

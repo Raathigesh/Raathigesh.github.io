@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Simple Introduction to Generics in C#
-excerpt: "Generics in C# gives the ability to write type independent code rather than allowing a class or method to work with only a specific type."
-modified: 2014-08-31
-tags: [C#]
-comments: true
-image:
-  feature: texture-feature-01.jpg
+title:  "Simple Introduction to Generics in C#"
+categories:
+  - C#
+tags:
+  - Generics
 ---
 
 Generics in C# gives the ability to write type independent code rather than allowing a class or method to work with only a specific type.

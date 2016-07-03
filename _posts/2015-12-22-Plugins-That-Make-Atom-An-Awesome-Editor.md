@@ -1,23 +1,14 @@
 ---
-published: true
-layout: post
-excerpt: "I'm a big fan of Atom Editor. In a previous post I have discussed about the editors I use for day to day developement. "
-modified: {}
-tags: 
-  - Atom
-  - Plugins
-  - JavaScript
-  - ES6
+title:  "Plugins that make Atom an Awesome Editor"
+categories:
   - Tools
-  - Productivity
-comments: true
+tags:
+  - Atom
 ---
 
+I'm a big fan of Atom Editor. In a [previous post](http://raathigesh.com/Code-Editors-I-Use/) I have discussed about the editors I use for day to day developement.
 
-
-I'm a big fan of Atom Editor. In a [previous post](http://raathigesh.com/Code-Editors-I-Use/) I have discussed about the editors I use for day to day developement. 
-
-Atom is advertised as a hackable editor and It truly is. When you see a missing feature, you can very easily find a plugin for it. The plugins makes atom so great because you can customize the editor entirely for your needs. 
+Atom is advertised as a hackable editor and It truly is. When you see a missing feature, you can very easily find a plugin for it. The plugins makes atom so great because you can customize the editor entirely for your needs.
 
 Here I'm going list all the plugins I find useful with Atom. Hope this helps you guys as well.
 
@@ -26,7 +17,7 @@ Here I'm going list all the plugins I find useful with Atom. Hope this helps you
 
 - [Language Babel](https://atom.io/packages/language-babel): Enhanced ES6 Syntax highlighting.
 
-- [React](https://atom.io/packages/react): React syntax highlighting. 
+- [React](https://atom.io/packages/react): React syntax highlighting.
 
 - [Docblockr](https://atom.io/packages/docblockr): Write docs faster.
 

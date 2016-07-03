@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Associate Additional Data with Enumeration in C#
-excerpt: "I love to use enumerations because they are simple and awesome. But I came across a situation where additional data need to be associated with each item of the..."
-modified: 2014-08-23
-tags: [C#]
-comments: true
-image:
-  feature: texture-feature-01.jpg
+title:  "Associate Additional Data with Enumeration in C#"
+categories:
+  - C#
+tags:
+  - Enum
 ---
 I love to use enumerations because they are simple and awesome. But I came across a situation where additional data need to be associated with each item of the enumeration for validation needs. Its C# so there should be an easy and awesome way to do this right? ;) Guess what? There is a way as we expected. The solution is to use extension methods and attach any additional data according to our needs.
 

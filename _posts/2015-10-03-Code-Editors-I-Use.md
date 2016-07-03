@@ -1,20 +1,11 @@
 ---
-published: true
-layout: post
-excerpt: "I love tools. I'm in a constant lookout for great tools and when I see a promising one, I try them out. This post is going to be a quick look into the open source code editors I use, Why I use them, What they are good at and What they are bad at."
-modified: {}
-tags: 
-  - Code
-  - Editors
-  - VSCode
-  - VisualStudioCode
+title:  "Code Editors I Use"
+categories:
+  - Tools
+tags:
   - Atom
-  - GithubAtom
-  - AtomEditor
-comments: true
+  - VSCode
 ---
-
-
 
 I love tools. I'm in a constant lookout for great tools and when I see a promising one, I try them out. This post is going to be a quick look into the open source code editors I use, Why I use them, What they are good at and What they are bad at.
 
@@ -22,7 +13,7 @@ I love tools. I'm in a constant lookout for great tools and when I see a promisi
 
 ![](https://atom.io/assets/screenshot-main-f609d95c29e5190787970f8c83762fcb.png)
 
-I'm starting to love this piece of software very much. 
+I'm starting to love this piece of software very much.
 
 ### The things I love about Atom
 - Default theme is very pleasing.
@@ -47,7 +38,7 @@ So what about Brackets? I tried brackets around 6 months ago, but I was not very
 
 ![](https://i3-vso.sec.s-msft.com/dynimg/IC794096.png)
 
-Another fantastic piece of software excels in a completely different area, The server side development. When I say server side development, I'm not talking about Asp.Net web forms. NO. I'm talking about what cool kids are up to these days, Node JS and Asp.Net v5. 
+Another fantastic piece of software excels in a completely different area, The server side development. When I say server side development, I'm not talking about Asp.Net web forms. NO. I'm talking about what cool kids are up to these days, Node JS and Asp.Net v5.
 
 I use VS Code for Node JS development mainly.
 

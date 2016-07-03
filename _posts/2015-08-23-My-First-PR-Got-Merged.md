@@ -1,10 +1,9 @@
 ---
-layout: post
-title: My First PR Got Merged
-excerpt: "I always wanted to contribute to open source projects. Last week I decided to put some effort into it and finally I fixed a bug of a .Net open source project called Humanizer."
-modified: 2015-08-23
-tags: [OSS, Github, PR]
-comments: true
+title:  "My First PR"
+categories:
+  - Web
+tags:
+  - OpenSource
 ---
 
 I always wanted to contribute to open source projects. Last week I decided to put some effort into it and finally I fixed a bug of a .Net open source project called [Humanizer](https://github.com/MehdiK/Humanizer) and the maintainer of the project [Mehdi Khalili](https://github.com/MehdiK) accepted the PR and it was EXCITING!
@@ -21,9 +20,8 @@ I picked [a small defect related to .ToString()](https://github.com/MehdiK/Human
 Once you are confident about the fix that you are going to make, now it's show time. Fork the project to your account and checkout the repository and start hacking.
 
 ### Issue a merge request
-Once you fix the issue and commit the changes to your fork, you can issue a pull request (PR). If your fix is good enough and you have followed the guidelines for contributions, the maintainer will merge the changes to the master. 
+Once you fix the issue and commit the changes to your fork, you can issue a pull request (PR). If your fix is good enough and you have followed the guidelines for contributions, the maintainer will merge the changes to the master.
 
 [My pull request](https://github.com/MehdiK/Humanizer/pull/453) was not that elegant and Mehdi suggested some changes that could make the PR even more elegant.
 
 Go OSS :)
-

@@ -1,20 +1,12 @@
 ---
-published: true
-layout: post
-excerpt: "Flux is a pattern propsed by facebook to build react applications. Flux is not a library but a pattern like MVC. Flux mandates a uni-directional data flow."
-modified: {}
-tags: 
-  - ReactJS
-  - Redux
-  - Flux
-comments: true
+title:  "Redux Simplified"
+categories:
+  - Web
+tags:
+  - React
 ---
 
-
-
-
-## What the flux is flux?
-[Flux](https://facebook.github.io/flux/) is a pattern proposed by facebook to build ReactJS applications. Flux is not a library but a pattern like MVC. Flux mandates an uni-directional data flow. 
+[Flux](https://facebook.github.io/flux/) is a pattern proposed by facebook to build ReactJS applications. Flux is not a library but a pattern like MVC. Flux mandates an uni-directional data flow.
 
 A typical flux implementation has three components.
 
@@ -31,9 +23,9 @@ Redux is a flux library which helps to manage application state in JavaScript ap
 
 Three fundamental parts of Redux
 
-1. The State 
+1. The State
 2. Actions
-3. Reducers 
+3. Reducers
 
 > Redux uses only a single store
 
@@ -78,9 +70,9 @@ function SetAuthorization() {
 {% endhighlight %}
 
 #### Reducers
-So far we have a state and actions with the information on how to change the state. But who is going to change the state? Reducer is. 
+So far we have a state and actions with the information on how to change the state. But who is going to change the state? Reducer is.
 
-Despite the fancy name, Reducer is just another function with a switch case. 
+Despite the fancy name, Reducer is just another function with a switch case.
 
 But the very important part is, a reducer is responsible for managing a branch of your global state. If we go back to our previous global state, we need two reducers to manage this state as follows.
 

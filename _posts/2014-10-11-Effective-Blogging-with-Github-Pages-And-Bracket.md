@@ -1,10 +1,9 @@
 ---
-layout: post
-title: Blogging with GitHub Pages & Brackets 
-excerpt: "I like to blog. Blogging enables to share knowledge, viewes and findings with others. More than that, I blog because it may help my future self to refer certain findings quickly."
-modified: 2014-10-19
-tags: [Tools]
-comments: true
+title:  "Effective Blogging with Github Pages And Bracket"
+categories:
+  - Tools
+tags:
+  - Blogging
 ---
 
 I like to blog. Blogging enables to share knowledge, viewes and findings with others. More than that, I blog because it may help my future self to refer certain findings quickly. I started blogging with [Google Bloggers](https://www.blogger.com/home?pli=1). Google Bloggers is an excellent platform to get you content out in no time. Its simple, fast and effective. But I always wanted by blog to look in certain way. I love minimalistic design concepts. Bloggers is a great place to start but it will fall short if you want great amount of customizability (Atleast for me). After sometime I started looking for other options and found [Wordpress](https://wordpress.com/). Wordpress is an amazing blogging platform. It's customizability often blows my mind. It's not just customizable but also super powerfull. [Wordpres powers more than 18% of the Web](http://thenextweb.com/insider/2013/07/27/wordpress-now-powers-18-9-of-the-web-has-over-46m-downloads-according-to-founder-matt-mullenweg/). I blogged for somettime with wordpress. The problem with wordpress is its not just a blogging platform anymore. It's more than that. It's a full blown Content Management System. It's a good thing for some people but if you are expeting a simple, fast and hassel free setup, wordpress could be overwhelming.
@@ -19,7 +18,7 @@ This is the workflow i followed so far
 2. Create the content using [MarkdownPad for Windows](http://markdownpad.com/)
 3. Push the new content using [GitHub For Windows](https://windows.github.com/)
 
-Not that much of a hassel but still sometimes it's too much to ask from youself after a very eventful day. I also tried using Visual Studio 2013, markdown editor plugin and inbuilt Git Support but still it felt like VS is little too heavy for the task. After some soul searching I think I found the perfect match. Yep! That's [BRACKETS](http://brackets.io/?lang=en). Brackets is a open source code editor from adobe. It's light, fast, extremely comforting to use and got a good community support with tons of plugins. 
+Not that much of a hassel but still sometimes it's too much to ask from youself after a very eventful day. I also tried using Visual Studio 2013, markdown editor plugin and inbuilt Git Support but still it felt like VS is little too heavy for the task. After some soul searching I think I found the perfect match. Yep! That's [BRACKETS](http://brackets.io/?lang=en). Brackets is a open source code editor from adobe. It's light, fast, extremely comforting to use and got a good community support with tons of plugins.
 
 To setup brackets for our purpose, follow the below steps.
 
@@ -35,4 +34,3 @@ And We are Done. You just put together an awesome environemnt to write blog post
 </figure>
 
 All I have to say is, I'm in love with brackets now. Happy Blogging Poople!
-

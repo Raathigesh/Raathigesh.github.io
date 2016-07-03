@@ -1,18 +1,16 @@
-# Site navigation links
-- title: Home
-  url: /
+# main links links
+main:
+  - title: "Home"
+    url: /
 
-- title: Archive
-  url: /posts/
+  - title: "Posts"
+    url: /year-archive/
 
-- title: Projects
-  url: /projects/
+  - title: "Tools"
+    url: /tools/
 
-- title: Lab
-  url: /lab/
+  - title: "Projects"
+    url: /projects/
 
-- title: Tools
-  url: /tools/
-
-- title: About
-  url: /about/
+  - title: "About"
+    url: /about/

@@ -1,10 +1,9 @@
 ---
-layout: post
-title: Using FakeItEasy To Fake Objects
-excerpt: "Fake objects allows to unit test components individually by faking the behavior of dependent components. Fake it easy is a framework which allows to create fake objects effectively and the API of the framework is very easy to understand. This post takes a look into some handy techniques to make unit testing easy with fake it easy."
-modified: 2015-04-22
-tags: [C#]
-comments: true
+title:  "Using FakeItEasy To Fake Objects"
+categories:
+  - DotNet
+tags:
+  - FakeItEasy
 ---
 
 ##Introduction##

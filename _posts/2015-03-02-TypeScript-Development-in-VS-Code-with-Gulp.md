@@ -1,10 +1,11 @@
 ---
-layout: post
-title: TypeScript Development in VS Code  with Gulp
-excerpt: "Microsoft released VS Code, A light weight code editor for Asp.Net 5 and NodeJs development. This post is going to explore how to use VS Code for TypeScript development with Gulp watch task to automatically build with each change."
-modified: 2015-03-02
-tags: [TypeScript, VSCode, Gulp]
-comments: true
+title:  "TypeScript Developement in VS Code With Gulp"
+categories:
+  - Web
+tags:
+  - TypeScript
+  - VSCode
+  - Gulp
 ---
 
 ##Introduction##
@@ -16,7 +17,7 @@ Microsoft released VS Code, A light weight code editor for Asp.Net 5 and NodeJs 
 Download VS Code from [here](https://code.visualstudio.com/) and install it. If you don't have NodeJs installed, go ahead and install it from [here](https://nodejs.org/).
 
 ####Typescript
-Now let's install TypeScript through NPM with the following command. This will install typescript globally. 
+Now let's install TypeScript through NPM with the following command. This will install typescript globally.
 
     npm install -g typescript
 
@@ -33,10 +34,10 @@ Create a directory some where in your disk. This is the directory our project fi
 
 Execute the following command to install TypeScript compiler for gulp.
 
-    npm install gulp-tsc 
+    npm install gulp-tsc
 
 ###Setting up VSCode
-Now we have all the piece in places to actually start doing something fun. Open VSCode and open your project directory. 
+Now we have all the piece in places to actually start doing something fun. Open VSCode and open your project directory.
 
 
 create a new file called `tsconfig.json` and make it look like this.
@@ -55,7 +56,7 @@ Following is the content of the `gulpfile.js`
 {% highlight JavaScript %}
 var gulp = require('gulp');
 var typescript = require('gulp-tsc');
- 
+
 gulp.task('compile', function(){
   gulp.src(['src/**/*.*'])
     .pipe(typescript())
@@ -81,11 +82,11 @@ Once the tasks.json is created, replace the entire content with the following.
 	"tasks": [
 		{
 			"taskName": "watch",
-			
+
 			"isBuildCommand": true,
-			
+
 			"showOutput": "silent",
-			
+
 			"problemMatcher": "$tsc"
 		}
 	]
@@ -103,16 +104,14 @@ Now modify the `main.ts` file as following and save the file.
 {% highlight JavaScript %}
 class Bar {
 	constructor(parameters) {
-		
+
 	}
 }
 {% endhighlight %}
 
-Now a folder named `dist` should be created with a file named `main.js` in it. Every time you make a change, the build step will run and `main.js` will be updated accordingly. 
+Now a folder named `dist` should be created with a file named `main.js` in it. Every time you make a change, the build step will run and `main.js` will be updated accordingly.
 
 
 Here is the TypeScript and generated JavaScript file side by side in VSCode. Go make a change in the TypeScript and watch the JavaScript file refreshes automatically with the changes :)
 
 ![](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/images/VSCodeTypeScript/Final.PNG)
-
-

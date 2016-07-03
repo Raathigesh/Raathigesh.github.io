@@ -1,29 +1,25 @@
 ---
-published: true
-layout: post
-excerpt: I wanted to invoke a function in an angular app but also wanted the depencies of the function (parameters) such as servies and factories to be injected automatically.
-modified: {}
-tags: 
+title:  "Angular Js Resolve Dependencies Of A Function"
+categories:
+  - Web
+tags:
   - AngularJS
-  - $Injector
-  - JavaScript
-comments: true
 ---
 
 
-The requirement is to invoke a function in an angular app but also wanted the depencies of the function (parameters) such as servies and factories to be injected automatically. 
+The requirement is to invoke a function in an angular app but also wanted the depencies of the function (parameters) such as servies and factories to be injected automatically.
 
 {% highlight javascript %}
 function CustomFunction(MyAngularService) {
 }
 {% endhighlight %}
 
-When the function is invoked, the service should be injected automatically and also I should be able to pass additional parameters which are not injectables. 
+When the function is invoked, the service should be injected automatically and also I should be able to pass additional parameters which are not injectables.
 
 As it turns out, its really an easy task with the $injector service.
 
 {% highlight javascript %}
- $injector.invoke(CustomFunction); 
+ $injector.invoke(CustomFunction);
 {% endhighlight %}
 
 Doing so will provide all the depencies required for the function and invoke it. Pretty awesome. It's also worth noting that there is an `instantiate` method as well in `$injector` service which will create a new instance out of the provided constructor function.
@@ -38,7 +34,7 @@ function CustomFunction(MyAngularService, name) {
 
 `name` is a custom parameter that I should provide.
 
-This is how its done. 
+This is how its done.
 
 {% highlight javascript %}
 $injector.invoke(CustomFunction, this, { name: 'Raathi' });

@@ -1,12 +1,9 @@
 ---
-published: true
-layout: post
-excerpt: "I managed to get a React Native (RN) hello world android app running in the android emulator on my windows machine and this post is going to describe some issues I faced and how solved those. So are you ready to get your hands dirty with some React Native (RN)?"
-modified: {}
-tags: 
+title:  "Building Hello World Android App In React Native"
+categories:
+  - Mobile
+tags:
   - ReactNative
-  - Windows
-comments: true
 ---
 
 
@@ -15,8 +12,8 @@ I managed to get a React Native (RN) hello world android app running from a wind
 
 - Download [Android SDK for Windows](http://developer.android.com/sdk/index.html#Other) and install it.
 
-- Create a system variable called `ANDROID_HOME` and set the value to the SDK installation path. E.g: `C:\Users\UserName\AppData\Local\Android\android-sdk`. 
-Make sure to select the required components when installing the SDK as indicated in [this](https://facebook.github.io/react-native/docs/android-setup.html) link. Also make sure to create a new virtual device in your emulator with the configuration mentioned in the above mentioned link. 
+- Create a system variable called `ANDROID_HOME` and set the value to the SDK installation path. E.g: `C:\Users\UserName\AppData\Local\Android\android-sdk`.
+Make sure to select the required components when installing the SDK as indicated in [this](https://facebook.github.io/react-native/docs/android-setup.html) link. Also make sure to create a new virtual device in your emulator with the configuration mentioned in the above mentioned link.
 
 >Rapid Environemnt Editor makes handling environment variables a breeze in windows. Check out [Rapid Environment Editor](http://www.rapidee.com/en/about).
 
@@ -46,7 +43,7 @@ react-native start
 
 - If things goes well you should see your application in the emulator or the device.
 
-### Fixing 'Unable to download JS bundle' error 
+### Fixing 'Unable to download JS bundle' error
 When you open your app in the phone, you might see an error saying `Unable to download JS bundle`. This error means the emulator/phone can't communicate to the packager to download the content.
 
 The steps I followed to resolve this issues.
@@ -69,4 +66,3 @@ If you are still having the issue, try to navigate to `localhost:8081/index.andr
 If you keep getting the error message as below even though your packager is running as expected, Try to open the url `http://localhost:8081/index.android.bundle?platform=android&dev=true` in your browser and see weather you are getting any error in the response. If you do, try fixing it and then reload your app.
 
 ![ReactNativeError.png](https://raw.githubusercontent.com/Raathigesh/Raathigesh.github.io/master/_posts/ReactNativeError.png)
-

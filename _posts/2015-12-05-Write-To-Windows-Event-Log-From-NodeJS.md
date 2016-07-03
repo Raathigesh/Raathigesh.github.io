@@ -1,17 +1,10 @@
 ---
-published: true
-layout: post
-excerpt: There are some great logging framework in NodeJS which will allow you to log to various destinations. Winson in one of the good logging framework which can log to multiple transports.
-modified: {}
-tags: 
+title:  "Write To Windows Event Log From NodeJS"
+categories:
+  - Web
+tags:
   - NodeJS
-  - EventLog
-  - Windows
-  - Logging
-  - WindowsNode
-comments: true
 ---
-
 
 There are some great logging framework in NodeJS. [Winson](https://github.com/winstonjs/winston) in one of the well known library which can log to multiple transports.
 
@@ -25,7 +18,7 @@ Winston-winlog uses [Windows Event Log Js](http://jfromaniello.github.io/windows
 Other option I was attempting to do was to write a simple class library which will allow  me to log message to Windows Event log and I can invoke the class library methods from Node JS through the awesome [Edge Js Library](https://github.com/tjanczuk/edge). But Edge Js requires .Net 4.5 but we had to work with .Net 4.0 so this was no longer a viable option.
 
 ### node-windows Module - The Saviour
-After some googling, I found an amazing module called [node-windows](https://github.com/coreybutler/node-windows), which can write to Windows Event Log and it's not a native module so no need of compilation. 
+After some googling, I found an amazing module called [node-windows](https://github.com/coreybutler/node-windows), which can write to Windows Event Log and it's not a native module so no need of compilation.
 
 [Node windows](https://github.com/coreybutler/node-windows) not only has event logging functionality but it also has some other amazing windows related features.
 

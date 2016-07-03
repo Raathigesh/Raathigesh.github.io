@@ -1,16 +1,12 @@
 ---
-layout: post
-title: Using Fiddler to Fake Response
-excerpt: "Fiddler is a must have tool for web developers. The Auto Responder feature of fiddler allows to fake response for a particular request."
-modified: 2014-10-10
-tags: [Tools]
-comments: true
-image:
-  feature: texture-feature-01.jpg
+title:  "Using Fiddler to Fake Response For A URL"
+categories:
+  - Tools
+tags:
+  - Fiddler
 ---
 
 Fiddler is a must have tool for web developers. The Auto Responder feature of fiddler allows to fake response for a particular request.
-
 
 
 Open up fiddler and switch to AutoResponder tab.

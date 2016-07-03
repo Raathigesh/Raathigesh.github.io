@@ -1,10 +1,7 @@
 ---
-layout: post
-title: Introduction to Fluent API in C#
-excerpt: "In object orientation programming, fluent APIs are just like any other APIs but they provide a more human redable code. Consider a scenario where we want to build an object called Car and assign some properties to it."
-modified: 2015-01-09
-tags: [.Net]
-comments: true
+title:  "Introduction to Fluent API in C#"
+categories:
+  - C#
 ---
 In object orientation programming, fluent APIs are just like any other APIs but they provide a more human redable code. Consider a scenario where we want to build an object called Car and assign some properties to it.
 
@@ -27,7 +24,7 @@ var Car = new Car()
         .WithType("Electric")
         .WithColor("Blue");
 {% endhighlight %}
-        
+
 Isn't that a more clear way to build the car object. Isn't that Neat?
 
 So let's see the implementaion of the fluent car builder which will build cars for us.
@@ -37,17 +34,17 @@ public class Car{
 	public string Name {get; set;}
 	public string Type {get; set;}
 	public string Color {get; set;}
-	
+
 	public Car WithName(string Name){
 	  	this.Name = Name;
 	  	return this;
 	}
-	
+
 	public Car WithType(string Type){
 	  	this.Type = Type;
 	  	return this;
 	}
-	
+
 	public Car WithColor(string Color){
 		this.Color = Color;
 		return this;
@@ -67,7 +64,5 @@ var Results = items.Where(e => e.Approved)
     .Select(e => e.Name)
     .FirstOrDefault();
 {% endhighlight %}
-    
+
 Even though fluent APIs are neat, they wont be appicable for all the situations. As programmers we have a tendency to apply the new thing we learn in all the places. Honestly I tried to apply fluent API in several situations when I got to know about them. But in some instances they just dont work. But there are best fit certain scenarios where fluent APIs excel as well. So use them wisely!
-
-

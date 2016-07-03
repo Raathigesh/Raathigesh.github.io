@@ -1,54 +1,55 @@
-/*! Responsive Menu */
-// http://tympanus.net/codrops/2013/05/08/responsive-retina-ready-menu/
-//  The function to change the class
-var changeClass = function (r,className1,className2) {
-  var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
-  if( regex.test(r.className) ) {
-    r.className = r.className.replace(regex,' '+className2+' ');
+/* ==========================================================================
+   jQuery plugin settings and other scripts
+   ========================================================================== */
+
+$(document).ready(function(){
+
+  // FitVids init
+  $("#main").fitVids();
+
+  // init sticky sidebar
+  $(".sticky").Stickyfill();
+
+  var stickySideBar = function(){
+    if (!$(".author__urls-wrapper button").is(":visible")) {
+      // fix
+      Stickyfill.rebuild();
+      Stickyfill.init();
+      $(".author__urls").show();
+    } else {
+      // unfix
+      Stickyfill.stop();
+      $(".author__urls").hide();
     }
-    else{
-    r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"),' '+className1+' ');
-    }
-    return r.className;
-};  
-//  Creating our button in JS for smaller screens
-var menuElements = document.getElementById('site-nav');
-menuElements.insertAdjacentHTML('afterBegin','<button type="button" role="button" id="menutoggle" class="navtoogle navicon-lines-button x" aria-hidden="true"><span class="navicon-lines"></span>menu</button>');
+  };
 
-//  Toggle the class on click to show / hide the menu
-document.getElementById('menutoggle').onclick = function() {
-  changeClass(this, 'navtoogle active', 'navtoogle');
-};
-// http://tympanus.net/codrops/2013/05/08/responsive-retina-ready-menu/comment-page-2/#comment-438918
-document.onclick = function(e) {
-  var mobileButton = document.getElementById('menutoggle'),
-    buttonStyle =  mobileButton.currentStyle ? mobileButton.currentStyle.display : getComputedStyle(mobileButton, null).display;
+  stickySideBar();
 
-  if(buttonStyle === 'block' && e.target !== mobileButton && new RegExp(' ' + 'active' + ' ').test(' ' + mobileButton.className + ' ')) {
-    changeClass(mobileButton, 'navtoogle active', 'navtoogle');
-  }
-};
-
-/*! Plugin options and other jQuery stuff */
-
-// FitVids options
-$(function() {
-	$("article").fitVids();
-});
-
-// Table of Contents toggle
-$(function() {
-  $(".toc h3").click(function () {
-    $("#drawer").toggleClass("js-hidden");
+  $(window).resize(function(){
+    stickySideBar();
   });
-});
 
-// Add lightbox class to all image links
-$("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+  // Follow menu drop down
 
-// Magnific-Popup options
-$(document).ready(function() {
-  $('.image-popup').magnificPopup({
+  $(".author__urls-wrapper button").on("click", function() {
+    $(".author__urls").fadeToggle("fast", function() {});
+    $(".author__urls-wrapper button").toggleClass("open");
+  });
+
+  // init smooth scroll
+  $("a").smoothScroll({offset: -20});
+
+  // add lightbox class to all image links
+  $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+
+  // Magnific-Popup options
+  $(".image-popup").magnificPopup({
+    disableOn: function() {
+      if( $(window).width() < 500 ) {
+        return false;
+      }
+      return true;
+    },
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     gallery: {
@@ -59,9 +60,128 @@ $(document).ready(function() {
     image: {
       tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
     },
-    removalDelay: 300, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open. 
+    removalDelay: 500, // Delay in milliseconds before popup is removed
+    // Class that is added to body when popup is open.
     // make it unique to apply your CSS animations just to this exact popup
-    mainClass: 'mfp-fade'
+    mainClass: 'mfp-zoom-in',
+    callbacks: {
+      beforeOpen: function() {
+        // just a hack that adds mfp-anim class to markup
+        this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+      }
+    },
+    closeOnContentClick: true,
+    midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+  });
+
+  particlesJS("headerImage", {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#ffffff"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "grab"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 140,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
   });
 });

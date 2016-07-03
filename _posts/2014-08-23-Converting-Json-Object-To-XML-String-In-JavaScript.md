@@ -1,12 +1,9 @@
 ---
-layout: post
-title: Converting Json Object to XML string in JavaScript
-excerpt: "Here is a snippet which will covert JSON objects to XML. But keep in mind attributes are not supported."
-modified: 2014-08-23
-tags: [JavaScript]
-comments: true
-image:
-  feature: texture-feature-01.jpg
+title:  "Converting JSON Object To XML String In JavaScript"
+categories:
+  - JavaScript
+tags:
+  - JSON
 ---
 Here is a snippet which will covert JSON objects to XML. But keep in mind attributes are not supported.
 

@@ -1,15 +1,14 @@
 ---
-layout: post
-title: Should I Use TypeScript?
-excerpt: "JavaScript is a one of the trending language today. As developers we are using JavaScript to write rich client applications as well as server applications. JavaScript is flexible and powerful but certainly not the most productive language. JavaScript doesn't have a type system since its a dynamic typed language. Because of this nature the language feels non productive at times."
-modified: 2015-08-17
-tags: [TypeScript, JavaScript]
-comments: true
+title:  "Should I Use TypeScript?"
+categories:
+  - Web
+tags:
+  - TypeScript
 ---
 
 JavaScript is a one of the trending language today. As developers we are using JavaScript to write rich client applications as well as server applications. JavaScript is flexible and powerful but certainly not the most productive language. JavaScript doesn't have a type system since its a dynamic typed language. Because of this nature the language feels non productive at times.
 
-If you are developing a large scale applications with hundreds of JavaScript files, its very easy to get lost. Since there are no types, the editors also can't help with the development experience after certain point. If you are working in a typed language, the compiler is there to guide you if you are doing something wrong. If you pass a parameter which is type of student into a method which accepts type of cake, the compiler will shout at you. In typical JavaScript environment there is no one to guide like that. You will see the error when you actually run in the browser or any other JavaScript environment such as NodeJS. 
+If you are developing a large scale applications with hundreds of JavaScript files, its very easy to get lost. Since there are no types, the editors also can't help with the development experience after certain point. If you are working in a typed language, the compiler is there to guide you if you are doing something wrong. If you pass a parameter which is type of student into a method which accepts type of cake, the compiler will shout at you. In typical JavaScript environment there is no one to guide like that. You will see the error when you actually run in the browser or any other JavaScript environment such as NodeJS.
 
 TypeScript is here to solve this specific issue and make JavaScript productive. TypeScript is an open source project from Microsoft. TypeScript is developed by [Anders Hejlsberg](https://en.wikipedia.org/wiki/Anders_Hejlsberg), the guy behind C#, Turbo Pascal and Delphi.
 
@@ -23,7 +22,7 @@ Since TypeScript is a super set, you can not run TypeScript in the browser direc
 So earlier you did : Write JavaScript => Refresh.
 Now you have to do : Write TypeScript => Build => Refresh
 
-So if the project is small, this might be an unnecessary overhead. But what if your project grows over time ? 
+So if the project is small, this might be an unnecessary overhead. But what if your project grows over time ?
 
 ### Do I have to pay for it ?
 TypeScript is completely free and open source.
@@ -55,10 +54,3 @@ Checkout [the definition file repository here](http://definitelytyped.org/tsd/).
 - Check out the [playground.](http://www.typescriptlang.org/Playground)
 - The official [handbook.](http://www.typescriptlang.org/Handbook)
 - [Deep Dive](http://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
-
-
-
-
-
-
-
