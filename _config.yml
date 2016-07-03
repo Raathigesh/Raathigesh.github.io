@@ -52,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-32790420-1"
 
 # Google AdSense
 google_ad_client         :
@@ -68,7 +68,7 @@ author:
   bio              : "I Code Stuff"
   location         : "Sri Lanka"
   email            :
-  uri              :
+  uri              : "http://raathigesh.com"
   bitbucket        :
   codepen          :
   dribbble         :
