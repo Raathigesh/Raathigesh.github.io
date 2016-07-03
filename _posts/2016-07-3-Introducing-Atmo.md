@@ -27,15 +27,15 @@ Atmo supports
 - Mocking HTTP endpoints
 - In-built Socket.io server
 - Proxying HTTP requests
-- In-built support for Json-Server
+- In-built support for [Json-Server](https://github.com/typicode/json-server)
 - Mocking GraphQL endpoints (Experimental)
 - Static content folder
 - Exporting project as Json file
 - Importing an Atmo project
-- Code generation through generators — ExpressJS/ES5 Generator
+- Code generation through generators — [ExpressJS/ES5 Generator](https://github.com/Raathigesh/AtmoExpressES5Generator)
 - Deployment via [https://zeit.co/now](https://zeit.co/now)
 
-Take a look at the mission control UI of [Atmo](https://github.com/Raathigesh/Atmo). Please keep in mind that this demo is just to showcase the UI and it is not fully functional.
+Take a look at the mission control UI of [Atmo](http://atmo.surge.sh/). Please keep in mind that this demo is just to showcase the UI and it is not fully functional.
 To see the capabilities of Atmo, Install the atmo npm module globally and execute the command atmo to launch the tool.
 
 ```
