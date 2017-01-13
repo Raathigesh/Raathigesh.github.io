@@ -12,7 +12,7 @@ But not to worry, Abstract syntax trees are here to save the day. Accodring to w
 
 Abstract syntax tree (AST) helps to represent a piece of code in a form of a tree. This allows us to traverse the tree and examine the code or manipuate the tree nodes as we want.
 
-### Esprima, Convert code to AST
+### Converting code to AST
 Tranforming a piece of code into an AST is not a simple task. A source code parser is required to do this job for us. There are quite a few JavaScript parsers availble to choose from. But Esprima is one of the very stable and actively maintained parser.
 
 ### Traversing an Abstract Syntax Tree
