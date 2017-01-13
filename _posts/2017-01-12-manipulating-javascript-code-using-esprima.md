@@ -13,10 +13,33 @@ But not to worry, Abstract syntax trees are here to save the day. Accodring to w
 Abstract syntax tree (AST) helps to represent a piece of code in a form of a tree. This allows us to traverse the tree and examine the code or manipuate the tree nodes as we want.
 
 ### Converting code to AST
-Tranforming a piece of code into an AST is not a simple task. A source code parser is required to do this job for us. There are quite a few JavaScript parsers availble to choose from. But Esprima is one of the very stable and actively maintained parser.
+Tranforming a piece of code into an AST is not a simple task. A source code parser will do this job for us. There are quite a few JavaScript parsers availble. But Esprima is one of the very stable and actively maintained parser.
+
+But instead of using Esprima, i'm going to use another too called `recast`. Recast uses Esprima internally to construct AST. But you might ask why not use Esprima directly rather than using another library which uses Esprima internally. Well, `recast` have some additional functionality we will require later.
+
+```javascript
+import recast from 'recast';
+
+// this is the code we have to modify
+var code = 'var x = 5;';
+
+// parse the code and get the AST
+var ast = recast.parse(code);
+```
+
+### Changing the AST and Generating code
+So we have an AST, we could change the tree as we want. Let's change the variable name from `x` to `y` with the following line of code.
+
+```javascript
+// modify the AST as you want.
+ast.program.body[0].declarations[0].id.name = "y";
+```
+
+But how do I get to know the node that is holding the variable name. Meet [AST Explorer](https://astexplorer.net/), a tool which will generate the AST the browser when you specify the code. Examine how the AST of our code snippet looks like [here](https://astexplorer.net/#/TEMnzHmo3M).
+
+But at the end of the day, we have to turn the AST back to code for it be usefull. Again we need someone to help with this as well. Thank fully `recast` got this corvered. Recast has a print method which takes in an AST and generates the code.
+
+
 
 ### Traversing an Abstract Syntax Tree
-An AST is prety complex sturcture and if you try to traverse on your own, you could feel that it's not so easy after all. But not to worry, tools like `estraverse` makes traversing JavaScript ASTs a breeze.
-
-### Generating code from an Abstract Syntax Tree
-So we have an AST, we could traverse and change it as we want. But at the end of the day, we have to turn the AST back to code for it be usefull. Again we need someone to help with this as well. Thank fully `recast` got it corvered. Recast has a print method which takes in an AST and generates the code.
+An AST is prety complex sturcture and if you try to traverse on your own, you would feel that it's not so easy after all. But not to worry, tools like `estraverse` makes traversing JavaScript ASTs a breeze.
