@@ -39,7 +39,9 @@ But how do I get to know the node that is holding the variable name. Meet [AST E
 
 But at the end of the day, we have to turn the AST back to code for it be usefull. Again we need someone to help with this as well. Thank fully `recast` got this corvered. Recast has a print method which takes in an AST and generates the code.
 
-
+```javascript
+var updatedCode = recast.print(ast).code;
+```
 
 ### Traversing an Abstract Syntax Tree
 An AST is prety complex sturcture and if you try to traverse on your own, you would feel that it's not so easy after all. But not to worry, tools like `estraverse` makes traversing JavaScript ASTs a breeze.
