@@ -8,7 +8,7 @@ comments: true
 share: true
 related: true
 ---
-Assume you have a requireemnt to develop a code editor and you wants to provide a renaming feature which would rename all the occurrence of a variable to something else. We could just do a simple string replacement but as you can imagine, things would get tricky real soon when your code gets complex. We can't trust string replacement approach to be accurate in this scenario. We could go one step further and write some complex regular expression to get this done. But again, regular expressions are just hard, tricky and simply not fun.
+Assume you have a requirement to develop a code editor and you wants to provide a renaming feature which would rename all the occurrence of a variable to something else. We could just do a simple string replacement but as you can imagine, things would get tricky real soon when your code gets complex. We can't trust string replacement approach to be accurate in this scenario. We could go one step further and write some complex regular expression to get this done. But again, regular expressions are just hard, tricky and simply not fun.
 
 ### Meet abstract syntax tree (aka AST)
 Abstract syntax trees are here to save the day. Accodring to wikipedia, Abstract syntax tree is a tree representation of the abstract syntactic structure of source code written in a programming language.
