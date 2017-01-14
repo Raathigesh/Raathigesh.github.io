@@ -13,9 +13,9 @@ Assume you have a requirement to develop a code editor and you want to provide a
 ### Meet abstract syntax tree (aka AST)
 Abstract syntax trees are here to save the day. Accodring to wikipedia, Abstract syntax tree is a tree representation of the abstract syntactic structure of source code written in a programming language.
 
-Well if I word it according to my understanding, Abstract syntax tree (AST) helps to represent a piece of code in a form of a tree. This allows us to traverse the tree and examine the code or manipuate the tree nodes as we want.
+Well, if I word it according to my understanding, Abstract syntax tree (AST) helps to represent a piece of code in a form of a tree. This allows us to traverse the tree and examine the code or manipuate the tree nodes as we want.
 
-Our job at hand is to change the variable `x` in the below code to variable 'y'. So we have to convert this piece of code into an AST.
+Our job in hand is to change the name of the variable `x` in the below code to 'y'. So we have to convert this piece of code into an AST.
 
 ```javascript
 var x = 5;
