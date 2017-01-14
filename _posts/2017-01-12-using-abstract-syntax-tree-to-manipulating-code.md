@@ -62,6 +62,6 @@ Yep! It's that simple and so much fun to play around with AST and code manipulat
 In the above example we accessed the node directly and changed it. But if you want to examine a complicated tree, you often want to traverse the tree node by node. An AST is a complex sturcture and if you try to traverse on your own, it could be bit complicated. But not to worry, [`estraverse`](https://github.com/estools/estraverse) makes traversing JavaScript ASTs a breeze.
 
 ### Conclusion
-Manipulation code directly using string manipulation is not much fun. Once you convert the code into a Abstract syntax tree (AST) using a parser such as Esprima, traversing and manipulating it becomes straight forward. Once you manipuate the tree, you can convert it back into code.
+Manipulating code directly using string manipulation or regular expresions is not much fun. Once you convert the code into an Abstract syntax tree (AST) using a parser such as Esprima, traversing and manipulating it becomes straight forward. Once you manipuate the tree, you can convert it back into code.
 
-I hope this would give you a very brief idea on how to get started with code manipualtion in JavaScript.
+I hope this would give you a very brief idea of how to get started with code manipualtion using AST. Even though we used JavaScript libraries to manipulate JavaScript code, AST could be used to manipuate code written in any language. You just have to use a parser which understands that particular language.
