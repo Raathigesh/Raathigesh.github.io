@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2017-01-14'
 layout: single
 author_profile: true
