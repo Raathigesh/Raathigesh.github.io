@@ -37,7 +37,7 @@ var ast = recast.parse(code);
 ```
 
 ### Modifying the AST and re-generating code
-So we have an AST, we could change the tree as we want. Let's change the variable name from `x` to `y` with the following line of code.
+So we have an AST, so we could change the nodes in the tree as we want. Let's change the variable name from `x` to `y` with the following line of code.
 
 ```javascript
 // modify the AST as you want.
