@@ -24,7 +24,7 @@ var x = 5;
 ### Converting code to AST
 Tranforming a piece of code into an AST is not a simple task. A source code parser will have to do this job for us. There are quite a few JavaScript parsers availble. But [Esprima](http://esprima.org/) is one of the very stable and actively maintained parser.
 
-But instead of using Esprima, I'm going to use another too called [`recast`](https://github.com/benjamn/recast). Recast uses Esprima internally to construct AST. But you might ask why not use Esprima directly rather than using another library which uses Esprima internally. Well, `recast` have some additional functionality we will require later.
+But instead of using Esprima, I'm going to use another tool called [`recast`](https://github.com/benjamn/recast). Recast uses Esprima internally to construct AST. But you might ask why not use Esprima directly rather than using another library which uses Esprima internally. Well, `recast` have some additional functionality we will require later.
 
 ```javascript
 import recast from 'recast';
