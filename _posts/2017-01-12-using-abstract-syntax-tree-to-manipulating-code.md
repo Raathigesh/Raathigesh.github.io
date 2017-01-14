@@ -44,11 +44,11 @@ So we have an AST, so we could change the nodes in the tree as we want. Let's ch
 ast.program.body[0].declarations[0].id.name = "y";
 ```
 
-But how do I know the node that is holding the variable name?
+In the above example, I accessed a node directly and changed the name property. But how do I know the node that is holding the variable name?
 
 Meet [AST Explorer](https://astexplorer.net/), a tool which will generate the AST of a code snippet in the browser. Examine how the AST of our code snippet looks like [here](https://astexplorer.net/#/TEMnzHmo3M).
 
-But at the end of the day, we have to turn the AST back to code for it be usefull. Again we need someone to help with this as well. Thank fully `recast` got this corvered. Recast has a print method which takes in an AST and returns the code.
+But eventually, we have to turn the AST back to code for it be usefull. Again we need someone to help with this as well. Thankfully `recast` got this corvered. Recast has a print method which takes in an AST and geenrates the code.
 
 ```javascript
 var updatedCode = recast.print(ast).code;
