@@ -44,4 +44,9 @@ var updatedCode = recast.print(ast).code;
 ```
 
 ### Traversing an Abstract Syntax Tree
-An AST is prety complex sturcture and if you try to traverse on your own, you would feel that it's not so easy after all. But not to worry, tools like `estraverse` makes traversing JavaScript ASTs a breeze.
+In the above example we accessed the node directly and changed it. But if you want to examine a huge tree, you often want to traverse the tree node by node. An AST is complex sturcture and if you try to traverse on your own, you would feel that it's not so easy after all. But not to worry, tools like [`estraverse`](https://github.com/estools/estraverse) makes traversing JavaScript ASTs a breeze.
+
+### Conclusion
+Manipulation code directly using string manipulation is not much fun. Once you convert the code into a Abstract syntax tree (AST) using a parser such as Esprima, traversing and manipulating it becomes straight forward. Once you manipuate the tree, you can convert back into code.
+
+I hope this would give you a very brief idea on how to get started with code manipualtion in JavaScript.
