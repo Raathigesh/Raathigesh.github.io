@@ -15,7 +15,7 @@ Abstract syntax trees are here to save the day. Accodring to wikipedia, Abstract
 
 Well, if I word it according to my understanding, Abstract syntax tree (AST) helps to represent a piece of code in a form of a tree. This allows us to traverse the tree and examine the code or manipuate the tree nodes as we want.
 
-Our job in hand is to change the name of the variable `x` in the below code to 'y'. So we have to convert this piece of code into an AST.
+Our job in hand is to change the name of the variable `x` in the below code to 'y'. So we have to convert this piece of code into an AST first.
 
 ```javascript
 var x = 5;
