@@ -1,5 +1,12 @@
 ---
 published: false
+date: '2017-01-14'
+layout: single
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
 ---
 ## Using Abstract syntax tree to manipulate code
 
